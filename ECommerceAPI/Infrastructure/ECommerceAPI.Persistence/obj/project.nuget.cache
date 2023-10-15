@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vYkUcfwQxLuxcSNj1/VkY+tEFUwdk995KimW1DFusYOw4a6IeiO6kyihYvYniD1fuZ1H8jQPiqixRrs5xOzVrw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\erkut\\OneDrive\\Masaüstü\\Yeni klasör\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\erkut\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

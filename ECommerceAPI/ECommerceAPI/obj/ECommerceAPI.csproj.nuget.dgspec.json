@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erkut\\OneDrive\\Masaüstü\\ECommerce\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj": {}
+    "C:\\Users\\erkut\\OneDrive\\Masaüstü\\Yeni klasör\\ECommerce\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erkut\\OneDrive\\Masaüstü\\ECommerce\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj": {
+    "C:\\Users\\erkut\\OneDrive\\Masaüstü\\Yeni klasör\\ECommerce\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erkut\\OneDrive\\Masaüstü\\ECommerce\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj",
+        "projectUniqueName": "C:\\Users\\erkut\\OneDrive\\Masaüstü\\Yeni klasör\\ECommerce\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj",
         "projectName": "ECommerceAPI",
-        "projectPath": "C:\\Users\\erkut\\OneDrive\\Masaüstü\\ECommerce\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj",
+        "projectPath": "C:\\Users\\erkut\\OneDrive\\Masaüstü\\Yeni klasör\\ECommerce\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj",
         "packagesPath": "C:\\Users\\erkut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erkut\\OneDrive\\Masaüstü\\ECommerce\\ECommerceAPI\\ECommerceAPI\\obj\\",
+        "outputPath": "C:\\Users\\erkut\\OneDrive\\Masaüstü\\Yeni klasör\\ECommerce\\ECommerceAPI\\ECommerceAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erkut\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
