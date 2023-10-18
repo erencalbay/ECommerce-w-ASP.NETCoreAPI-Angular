@@ -1,4 +1,5 @@
 ﻿using ECommerceAPI.Application.Repositories.ProductRepository;
+using ECommerceAPI.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ECommerceAPI.API.Controllers
@@ -17,7 +18,7 @@ namespace ECommerceAPI.API.Controllers
         }
 
         [HttpGet]
-        public async void Get(int id)
+        public async Task Get()
         {
             await _productWriteRepository.AddRangeAsync(new()
             {
@@ -26,7 +27,14 @@ namespace ECommerceAPI.API.Controllers
                 new() {Id = Guid.NewGuid(), Name = "Product 3", Price = 300, CreatedDate = DateTime.UtcNow, Stock=30}
 
             });
-            var count = await _productWriteRepository.SaveAsync();
+            await _productWriteRepository.SaveAsync();
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(string id)
+        {
+            Product product = await _productReadRepository.GetByIdAsync(id);
+            return Ok(product);
         }
     }
 }

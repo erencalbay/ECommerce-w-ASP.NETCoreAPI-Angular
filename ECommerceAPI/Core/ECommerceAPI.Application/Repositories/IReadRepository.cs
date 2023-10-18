@@ -13,13 +13,13 @@ namespace ECommerceAPI.Application.Repositories
     public interface IReadRepository<T> : IRepository<T> where T : BaseEntity
     {
         //IQueryabl
-        IQueryable<T> GetAll();
-        IQueryable<T> GetWhere(Expression<Func<T, bool>> method);
+        IQueryable<T> GetAll(bool tracking = true);
+        IQueryable<T> GetWhere(Expression<Func<T, bool>> method, bool tracking = true);
 
         //if we didn't use a Task-Async the GetSingleAsync is would be like this:
         // => T GetSingle(Expression<Func<T, bool>> method);
-        Task<T> GetSingleAsync(Expression<Func<T, bool>> method); 
-        Task<T> GetByIdAsync(string id);
+        Task<T> GetSingleAsync(Expression<Func<T, bool>> method, bool tracking = true); 
+        Task<T> GetByIdAsync(string id, bool tracking = true);
 
     }
 }
