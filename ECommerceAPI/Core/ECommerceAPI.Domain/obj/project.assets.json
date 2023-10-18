@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\erkut\\.nuget\\packages\\": {}
+    "C:\\Users\\msi-nb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erkut\\OneDrive\\Masaüstü\\Yeni klasör\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj",
       "projectName": "ECommerceAPI.Domain",
-      "projectPath": "C:\\Users\\erkut\\OneDrive\\Masaüstü\\Yeni klasör\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj",
-      "packagesPath": "C:\\Users\\erkut\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erkut\\OneDrive\\Masaüstü\\Yeni klasör\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\obj\\",
+      "projectPath": "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj",
+      "packagesPath": "C:\\Users\\msi-nb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\erkut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\msi-nb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

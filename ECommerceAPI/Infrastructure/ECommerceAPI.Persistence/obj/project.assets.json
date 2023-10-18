@@ -550,7 +550,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "ECommerceAPI.Domain": "1.0.0"
+          "ECommerceAPI.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.12"
         },
         "compile": {
           "bin/placeholder/ECommerceAPI.Application.dll": {}
@@ -1400,19 +1401,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\erkut\\.nuget\\packages\\": {}
+    "C:\\Users\\msi-nb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erkut\\OneDrive\\Masaüstü\\Yeni klasör\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj",
       "projectName": "ECommerceAPI.Persistence",
-      "projectPath": "C:\\Users\\erkut\\OneDrive\\Masaüstü\\Yeni klasör\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj",
-      "packagesPath": "C:\\Users\\erkut\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erkut\\OneDrive\\Masaüstü\\Yeni klasör\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\obj\\",
+      "projectPath": "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj",
+      "packagesPath": "C:\\Users\\msi-nb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\erkut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\msi-nb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1426,8 +1427,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\erkut\\OneDrive\\Masaüstü\\Yeni klasör\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj": {
-              "projectPath": "C:\\Users\\erkut\\OneDrive\\Masaüstü\\Yeni klasör\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj"
+            "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj"
             }
           }
         }
