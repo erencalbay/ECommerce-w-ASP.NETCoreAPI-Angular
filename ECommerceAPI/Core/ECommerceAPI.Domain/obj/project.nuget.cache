@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "INuqOqQE9fEMIWVZm6RHXUoNerov9vCXrJAYiL3BEgUhWifovrMV4LkAS14p5a9B10vAoZxlE8h4sFSHBHtKpQ==",
+  "dgSpecHash": "Qag4i522Wsnou+GponQYOx4ZrUBxc5JEW8hs8KQ9pIcyWS/jIezxI6grSgLXNS1sAKNhA7V3OmEI0sUP5ZM50Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj",
+  "projectFilePath": "C:\\Users\\msi-nb\\Desktop\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

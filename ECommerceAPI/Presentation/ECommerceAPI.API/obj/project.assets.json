@@ -1638,11 +1638,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj",
+      "projectUniqueName": "C:\\Users\\msi-nb\\Desktop\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj",
       "projectName": "ECommerceAPI.API",
-      "projectPath": "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj",
+      "projectPath": "C:\\Users\\msi-nb\\Desktop\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj",
       "packagesPath": "C:\\Users\\msi-nb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\obj\\",
+      "outputPath": "C:\\Users\\msi-nb\\Desktop\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\msi-nb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1659,8 +1659,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj": {
-              "projectPath": "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj"
+            "C:\\Users\\msi-nb\\Desktop\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj": {
+              "projectPath": "C:\\Users\\msi-nb\\Desktop\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj"
             }
           }
         }

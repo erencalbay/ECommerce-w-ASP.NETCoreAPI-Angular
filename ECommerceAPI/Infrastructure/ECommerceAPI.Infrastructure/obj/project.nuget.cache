@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZrUa3eBbQSCz1wjfh7Ced1XMlqU4uWcEVusP8cdo5B9dWQYwLJdQHZfDSKRknmVOgl2YZVgb29ogxIEx+++1Rw==",
+  "dgSpecHash": "Jk5Nt9fCY6bPCRUfTna7i21D5BiSSoimY75VftVhIfsSjDVud3+UjVpWH4mVALO7DNxKXiAU0tv9sYxca8BpQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\msi-nb\\Desktop\\git\\erencalbay\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\msi-nb\\Desktop\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\msi-nb\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.12\\microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",
