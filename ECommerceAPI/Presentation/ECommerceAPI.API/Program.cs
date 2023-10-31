@@ -4,6 +4,21 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddPersistenceServices();
 
+
+//Add cors policy for connection client with server. With this policy any user access our API.
+//!! But if we filter with localhost:4200(our access canal) we only access with this canal.  
+builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
+//policy
+//.AllowAnyHeader()
+//.AllowAnyMethod()
+//.AllowAnyOrigin()
+policy
+.WithOrigins("http://localhost:4200", "https://localhost:4200")
+.AllowAnyHeader()
+.AllowAnyMethod()
+));
+
+
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
@@ -15,7 +30,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

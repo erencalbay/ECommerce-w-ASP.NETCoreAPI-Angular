@@ -29,6 +29,4 @@ export class DashboardComponent extends BaseComponent implements OnInit{
   dismiss() {
     this.alertify.dismiss();
   }
-
-
 }
