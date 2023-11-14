@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0h2ttcootCt8L9VcdbJYu1pWM5mHq2s3oexy9xu7t6OUzdALaRrEpvhQ16ap0LCykzhAzOoICIGmrZqQT6e6yQ==",
+  "dgSpecHash": "6HcjYz7OVS0+5Q4wCqG3KU4zCCPF+S6YUwWLClzc10fbvoPbnPz/iafawnlNQmQ+HAngU/RnW6Q4A1aNgSbDYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\msi-nb\\Desktop\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\msi-nb\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",

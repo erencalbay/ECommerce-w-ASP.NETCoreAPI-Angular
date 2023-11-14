@@ -16,7 +16,3 @@ export class AppComponent {
     });
   }
 }
-
-$.get("https://localhost:7093/api/products", data => {
-  console.log(data);
-})

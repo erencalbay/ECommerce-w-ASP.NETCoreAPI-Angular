@@ -1,0 +1,44 @@
+ogrencıler = {}
+
+number= input("Öğrenci No:")   
+name= input("Öğrenci ismi:")
+Surname= input("Öğrenci Soyad:")
+Age= input("Öğrenci Yaşı:")
+Phone= input("Telefon:")
+
+
+ogrencıler.update(
+    {number:
+    {
+    
+    "Ad" : name,
+    "Soyad" : Surname,
+    "Yaş": Age,
+     "Telefon":Phone 
+
+}})
+
+number= input("Öğrenci No:")   
+name= input("Öğrenci ismi:")
+Surname= input("Öğrenci Soyad:")
+Age= input("Öğrenci Yaşı:")
+Phone= input("Telefon:")
+
+ogrencıler.update(
+    {number:
+    {
+    
+    "Ad" : name,
+    "Soyad" : Surname,
+    "Yaş": Age,
+     "Telefon":Phone 
+
+}})
+
+
+print(ogrencıler)
+
+
+ogrNo = input("öğrenci no :")
+ogrenci= ogrencıler[number]
+print(ogrenci)
