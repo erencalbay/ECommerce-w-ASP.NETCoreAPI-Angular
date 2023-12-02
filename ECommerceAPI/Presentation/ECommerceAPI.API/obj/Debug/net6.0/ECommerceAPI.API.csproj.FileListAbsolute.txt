@@ -242,3 +242,8 @@ C:\Users\msi-nb\Desktop\git\git3\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI
 C:\Users\msi-nb\Desktop\git\git3\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\obj\Debug\net6.0\ECommerceAPI.API.pdb
 C:\Users\msi-nb\Desktop\git\git3\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\obj\Debug\net6.0\ECommerceAPI.API.genruntimeconfig.cache
 C:\Users\msi-nb\Desktop\git\git3\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\obj\Debug\net6.0\ref\ECommerceAPI.API.dll
+C:\Users\msi-nb\Desktop\git\git3\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\msi-nb\Desktop\git\git3\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\msi-nb\Desktop\git\git3\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\msi-nb\Desktop\git\git3\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\ECommerceAPI.Infrastructure.dll
+C:\Users\msi-nb\Desktop\git\git3\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\ECommerceAPI.Infrastructure.pdb

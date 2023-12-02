@@ -21,11 +21,36 @@ export class CreateComponent extends BaseComponent{
     create_product.stock = parseInt(txtStock.value);
     create_product.price = parseFloat(txtPrice.value);
 
+    /*
+    if(!txtName.value) {
+      this.alertify.message("Lütfen ürün adini giriniz.", {
+        dismissOthers: true,
+        messageType: MessageType.Error,
+        position: Position.TopRight
+      });
+      return;
+    }
+
+    if(parseInt(txtStock.value) < 0) {
+      this.alertify.message("Lütfen stock bilgisini dogru giriniz giriniz.", {
+        dismissOthers: true,
+        messageType: MessageType.Error,
+        position: Position.TopRight
+      });
+      return;
+    }*/
+
     this.productService.create(create_product, () => {
       this.hideSpinner(SpinnerType.BallAtom)
       this.alertify.message("Item successfuly added.", {
         dismissOthers: true,
         messageType: MessageType.Success,
+        position: Position.TopRight
+      })
+    }, errorMessage => {
+      this.alertify.message(errorMessage, {
+        dismissOthers: true,
+        messageType: MessageType.Error,
         position: Position.TopRight
       })
     });
