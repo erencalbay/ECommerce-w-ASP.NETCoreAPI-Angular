@@ -28,7 +28,7 @@
 
       <ng-container matColumnDef="delete">
         <th mat-header-cell *matHeaderCellDef></th>
-        <td [id]="element.id" mat-cell *matCellDef="let element" appDelete (callback)="getProducts()"> <!--<img src="../../../../../assets/delete.png" data-id="element.id" (click)="delete(element.id, $event)">--> </td>
+        <td [id]="element.id" mat-cell *matCellDef="let element" appDelete (callback)="getProducts()" controller="products"> <!--<img src="../../../../../assets/delete.png" data-id="element.id" (click)="delete(element.id, $event)">--> </td>
       </ng-container>
 
       <ng-container matColumnDef="edit">
