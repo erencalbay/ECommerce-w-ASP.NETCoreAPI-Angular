@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "leoVSQbnpQCMnQK2KQBmXAolIIKBJYeS5oBx2V2Akto=",
+  "Hash": "qO5kgUh3fQz1o/m/TTl6DY3k0vAmIPr9Ezq3DKwHCOA=",
   "Source": "ECommerceAPI.API",
   "BasePath": "_content/ECommerceAPI.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ECommerceAPI.API\\wwwroot",
+      "Source": "ECommerceAPI.API",
+      "ContentRoot": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
