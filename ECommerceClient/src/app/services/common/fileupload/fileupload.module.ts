@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FileuploadComponent } from './fileupload.component';
 import { NgxFileDropModule } from 'ngx-file-drop';
+import { DialogModule } from 'src/app/dialogs/dialog.module';
 
 
 
@@ -11,7 +12,8 @@ import { NgxFileDropModule } from 'ngx-file-drop';
   ],
   imports: [
     CommonModule,
-    NgxFileDropModule
+    NgxFileDropModule,
+    DialogModule
   ],
   exports: [
     FileuploadComponent

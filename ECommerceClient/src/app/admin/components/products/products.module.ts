@@ -14,6 +14,7 @@ import { DeleteDirective } from 'src/app/directives/admin/delete.directive';
 import { MatDialogModule } from '@angular/material/dialog';
 import { DeleteDialogComponent } from 'src/app/dialogs/delete-dialog/delete-dialog.component';
 import { FileuploadModule } from 'src/app/services/common/fileupload/fileupload.module';
+import { DialogModule } from 'src/app/dialogs/dialog.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,6 @@ import { FileuploadModule } from 'src/app/services/common/fileupload/fileupload.
     CreateComponent,
     ListComponent,
     DeleteDirective,
-    DeleteDialogComponent
   ],
   imports: [
     CommonModule,
@@ -34,7 +34,7 @@ import { FileuploadModule } from 'src/app/services/common/fileupload/fileupload.
     MatButtonModule,
     MatTableModule,
     MatPaginatorModule,
-    MatDialogModule,
+    DialogModule,
     FileuploadModule
   ]
 })
