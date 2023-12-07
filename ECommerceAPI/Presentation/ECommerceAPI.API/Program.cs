@@ -1,4 +1,5 @@
 using ECommerceAPI.Application.Validators.Products;
+using ECommerceAPI.Infrastructure;
 using ECommerceAPI.Infrastructure.Filters;
 using ECommerceAPI.Persistence;
 using FluentValidation.AspNetCore;
@@ -6,6 +7,7 @@ using FluentValidation.AspNetCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddPersistenceServices();
+builder.Services.AddInfrastructureServices();
 
 
 //Add cors policy for connection client with server. With this policy any user access our API.
