@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Basic-characteristics-of-subjects-for-DementiaBank-Pitt-database-n-a-not-applicable.png",
+      "PackagePath": "staticwebassets\\resource\\files\\Basic-characteristics-of-subjects-for-DementiaBank-Pitt-database-n-a-not-applicable.png"
+    },
+    {
+      "Id": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Characteristics-of-the-ADReSS-test-set.png",
+      "PackagePath": "staticwebassets\\resource\\files\\Characteristics-of-the-ADReSS-test-set.png"
+    },
+    {
+      "Id": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Database-details.png",
+      "PackagePath": "staticwebassets\\resource\\files\\Database-details.png"
+    },
+    {
+      "Id": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\Basic-characteristics-of-subjects-for-DementiaBank-Pitt-database-n-a-not-applicable.png",
+      "PackagePath": "staticwebassets\\resource\\product-images\\Basic-characteristics-of-subjects-for-DementiaBank-Pitt-database-n-a-not-applicable.png"
+    },
+    {
+      "Id": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\Characteristics-of-the-ADReSS-test-set.png",
+      "PackagePath": "staticwebassets\\resource\\product-images\\Characteristics-of-the-ADReSS-test-set.png"
+    },
+    {
+      "Id": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\Database-details.png",
+      "PackagePath": "staticwebassets\\resource\\product-images\\Database-details.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ECommerceAPI.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ECommerceAPI.API.props",
+      "PackagePath": "build\\ECommerceAPI.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ECommerceAPI.API.props",
+      "PackagePath": "buildMultiTargeting\\ECommerceAPI.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ECommerceAPI.API.props",
+      "PackagePath": "buildTransitive\\ECommerceAPI.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

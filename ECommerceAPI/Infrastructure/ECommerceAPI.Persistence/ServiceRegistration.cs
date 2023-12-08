@@ -1,11 +1,17 @@
 ﻿using ECommerceAPI.Application.Abstractions;
 using ECommerceAPI.Application.Repositories.CustomerRepository;
+using ECommerceAPI.Application.Repositories.File;
+using ECommerceAPI.Application.Repositories.InvoiceFile;
 using ECommerceAPI.Application.Repositories.OrderRepository;
+using ECommerceAPI.Application.Repositories.ProductImageFile;
 using ECommerceAPI.Application.Repositories.ProductRepository;
 using ECommerceAPI.Persistence.Contexts;
 using ECommerceAPI.Persistence.Repositories.CustomerConcrete;
+using ECommerceAPI.Persistence.Repositories.FileConcrete;
+using ECommerceAPI.Persistence.Repositories.InvoiceConcrete;
 using ECommerceAPI.Persistence.Repositories.OrderConcrete;
 using ECommerceAPI.Persistence.Repositories.ProductConcrete;
+using ECommerceAPI.Persistence.Repositories.ProductImageFileConcrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -27,6 +33,13 @@ namespace ECommerceAPI.Persistence
             services.AddScoped<IOrderWriteRepository, OrderWriteRepository>();
             services.AddScoped<IProductReadRepository, ProductReadRepository>();
             services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
+            services.AddScoped<IFileWriteRepository, FileWriteRepository>();
+            services.AddScoped<IFileReadRepository, FileReadRepository>();
+            services.AddScoped<IProductImageFileReadRepository, ProductImageFileReadRepository>();
+            services.AddScoped<IProductImageFileWriteRepository, ProductImageFileWriteRepository>();
+            services.AddScoped<IInvoiceFileReadRepository, InvoiceFileReadRepository>();
+            services.AddScoped<IInvoiceFileWriteRepository, InvoiceFileWriteRepository>();
+
         }
     }
 }
