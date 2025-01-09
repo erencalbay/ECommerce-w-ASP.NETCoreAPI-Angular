@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "51Dtg196wOQRIwP3TIiTRYHiaMDrKFQMSa+Tzr1MuOdx41ACh6Lm4Xnyil9KRfUzO5THzjlGAaRCP/IkpE1AWw==",
+  "dgSpecHash": "7PP3BuPB+oo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\erenc\\OneDrive\\Belgeler\\GitHub\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\erenc\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.32\\microsoft.windowsdesktop.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\erenc\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.32\\microsoft.netcore.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\erenc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.32\\microsoft.aspnetcore.app.ref.6.0.32.nupkg.sha512"
+  ],
   "logs": []
 }

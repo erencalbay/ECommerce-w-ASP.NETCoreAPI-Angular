@@ -1,27 +1,31 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Basic-characteristics-of-subjects-for-DementiaBank-Pitt-database-n-a-not-applicable.png",
+      "Id": "C:\\Users\\erenc\\OneDrive\\Belgeler\\GitHub\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Basic-characteristics-of-subjects-for-DementiaBank-Pitt-database-n-a-not-applicable.png",
       "PackagePath": "staticwebassets\\resource\\files\\Basic-characteristics-of-subjects-for-DementiaBank-Pitt-database-n-a-not-applicable.png"
     },
     {
-      "Id": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Characteristics-of-the-ADReSS-test-set.png",
+      "Id": "C:\\Users\\erenc\\OneDrive\\Belgeler\\GitHub\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Characteristics-of-the-ADReSS-test-set.png",
       "PackagePath": "staticwebassets\\resource\\files\\Characteristics-of-the-ADReSS-test-set.png"
     },
     {
-      "Id": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Database-details.png",
+      "Id": "C:\\Users\\erenc\\OneDrive\\Belgeler\\GitHub\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Database-details-2.png",
+      "PackagePath": "staticwebassets\\resource\\files\\Database-details-2.png"
+    },
+    {
+      "Id": "C:\\Users\\erenc\\OneDrive\\Belgeler\\GitHub\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\files\\Database-details.png",
       "PackagePath": "staticwebassets\\resource\\files\\Database-details.png"
     },
     {
-      "Id": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\Basic-characteristics-of-subjects-for-DementiaBank-Pitt-database-n-a-not-applicable.png",
+      "Id": "C:\\Users\\erenc\\OneDrive\\Belgeler\\GitHub\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\Basic-characteristics-of-subjects-for-DementiaBank-Pitt-database-n-a-not-applicable.png",
       "PackagePath": "staticwebassets\\resource\\product-images\\Basic-characteristics-of-subjects-for-DementiaBank-Pitt-database-n-a-not-applicable.png"
     },
     {
-      "Id": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\Characteristics-of-the-ADReSS-test-set.png",
+      "Id": "C:\\Users\\erenc\\OneDrive\\Belgeler\\GitHub\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\Characteristics-of-the-ADReSS-test-set.png",
       "PackagePath": "staticwebassets\\resource\\product-images\\Characteristics-of-the-ADReSS-test-set.png"
     },
     {
-      "Id": "C:\\Users\\msi-nb\\Desktop\\git\\git3\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\Database-details.png",
+      "Id": "C:\\Users\\erenc\\OneDrive\\Belgeler\\GitHub\\ECommerce-w-ASP.NETCoreAPI-Angular\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\resource\\product-images\\Database-details.png",
       "PackagePath": "staticwebassets\\resource\\product-images\\Database-details.png"
     },
     {
