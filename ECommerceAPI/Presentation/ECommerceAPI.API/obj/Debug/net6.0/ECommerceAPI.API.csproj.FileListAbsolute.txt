@@ -316,3 +316,11 @@ C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\EComm
 C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\obj\Debug\net6.0\ECommerceAPI.API.pdb
 C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\obj\Debug\net6.0\ECommerceAPI.API.genruntimeconfig.cache
 C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\obj\Debug\net6.0\ref\ECommerceAPI.API.dll
+C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Azure.Storage.Common.dll
+C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\System.ClientModel.dll
+C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\System.IO.Hashing.dll
+C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\System.Memory.Data.dll

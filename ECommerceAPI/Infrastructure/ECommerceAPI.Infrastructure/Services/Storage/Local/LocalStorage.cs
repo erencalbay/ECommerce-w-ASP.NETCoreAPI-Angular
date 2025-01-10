@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace ECommerceAPI.Infrastructure.Services.Storage.Local
 {
-    public class LocalStorage : ILocalStorage
+    public class LocalStorage : Storage, ILocalStorage
     {
         private readonly IWebHostEnvironment _webHostEnvironment;
 
@@ -60,8 +60,10 @@ namespace ECommerceAPI.Infrastructure.Services.Storage.Local
 
             foreach (IFormFile file in files)
             {
-                await CopyFileAsync($"{uploadPath}\\{file.Name}", file);
-                datas.Add((file.Name, $"{path}\\{file.Name}"));
+                string fileName = await FileRenameAsync(path, file.FileName, HasFile);
+
+                await CopyFileAsync($"{uploadPath}\\{fileName}", file);
+                datas.Add((fileName, $"{path}\\{fileName}"));
             }
 
             return datas;
