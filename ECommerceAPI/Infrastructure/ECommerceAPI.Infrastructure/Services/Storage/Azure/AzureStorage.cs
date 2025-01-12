@@ -51,7 +51,7 @@ namespace ECommerceAPI.Infrastructure.Services.Storage.Azure
                 string fileName = await FileRenameAsync(containerName, file.FileName, HasFile);
                 BlobClient blobClient = _blobContainerClient.GetBlobClient(fileName);
                 await blobClient.UploadAsync(file.OpenReadStream(), true);
-                datas.Add((file.Name, containerName));
+                datas.Add((file.Name, $"{containerName}/{fileName}"));
             }
             return datas;
         }
