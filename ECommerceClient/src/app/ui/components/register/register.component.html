@@ -1,0 +1,36 @@
+<div class="row">
+    <div class = "col-md-3" ></div>
+    <div class = "col-md-6" >
+        <form [formGroup]="frm" (ngSubmit)="onSubmit(frm.value)">
+          <div class="mb-3">
+            <label for="nameSurname">Name Surname</label>
+            <input type="text" formControlName="nameSurname" class="form-control" id="nameSurname" placeholder="Name Surname" [ngClass]="{'is-invalid': component.nameSurname.errors}">
+            <div class="form-text text-muted invalid-feedback" *ngIf="submitted && component.nameSurname.errors?.required">Please fill Name and Surname information.</div>
+            <div class="form-text text-muted invalid-feedback" *ngIf="submitted && (component.nameSurname.errors?.maxlength || component.nameSurname.errors?.minlength )">Please fill Name and Surname information between 3 and 50 char.</div>
+          </div>
+          <div class="mb-3">
+            <label for="username">Username</label>
+            <input type="text" formControlName="username" class="form-control" id="username" placeholder="Username" [ngClass]="{'is-invalid': component.username.errors}">
+            <div class="form-text text-muted invalid-feedback" *ngIf="submitted && component.username.errors?.required">Please fill Username information.</div>
+          </div>
+          <div class="mb-3">
+            <label for="email">Email</label>
+            <input type="email" formControlName="email" class="form-control" id="email" placeholder="Email" [ngClass]="{'is-invalid': component.email.errors}">
+            <div class="form-text text-muted invalid-feedback" *ngIf="submitted && component.email.errors?.required">Please fill e-mail information.</div>
+            <div class="form-text text-muted invalid-feedback" *ngIf="submitted && component.email.errors?.email">Please fill e-mail information properly.</div>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" formControlName="password" class="form-control" id="password" placeholder="Password" [ngClass]="{'is-invalid': component.password.errors}">
+          </div>
+          <div class="mb-3">
+            <label for="passwordAgain" class="form-label">Password Again</label>
+            <input type="password" formControlName="passwordAgain" class="form-control" id="passwordAgain" placeholder="Password Again" [ngClass]="{'is-invalid': component.passwordAgain.errors}">
+            <div *ngIf="submitted && frm.hasError('notSame')">Passwords are not same.</div>
+          </div>
+          <br />
+          <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+    <div class = "col-md-3" ></div>
+</div>
