@@ -1,6 +1,9 @@
 import { Component, OnInit} from '@angular/core';
 import { AbstractControl, FormBuilder, FormGroup, ValidationErrors, Validators } from '@angular/forms';
+import { Create_User } from 'src/app/contracts/users/create_user';
 import { User } from 'src/app/entities/user';
+import { UserService } from 'src/app/services/common/models/user.service';
+import { CustomToastrService, ToastrMessageType, ToastrPosition } from 'src/app/services/ui/custom-toastr.service';
 
 @Component({
   selector: 'app-register',
@@ -8,7 +11,7 @@ import { User } from 'src/app/entities/user';
   styleUrls: ['./register.component.scss']
 })
 export class RegisterComponent implements OnInit{
-  constructor(private formBuilder: FormBuilder){
+  constructor(private formBuilder: FormBuilder, private userService: UserService, private toastService: CustomToastrService){
 
   }
 
@@ -39,12 +42,25 @@ export class RegisterComponent implements OnInit{
   }
 
   submitted: boolean = false;
-  onSubmit(data: User) {
+  async onSubmit(user: User) {
     this.submitted = true;
     
 
     if (this.frm.invalid)
       return;
 
+    const result : Create_User = await this.userService.create(user);
+  
+    if(result.succeeded)
+      this.toastService.message(result.message, "User register succeeded.", {
+        messageType: ToastrMessageType.Success,
+        position: ToastrPosition.TopRight
+      })
+
+    else
+      this.toastService.message(result.message, "User register umsucceeded.", {
+        messageType: ToastrMessageType.Error,
+        position: ToastrPosition.TopRight
+      })
   }
 }
