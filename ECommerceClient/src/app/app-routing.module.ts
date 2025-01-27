@@ -5,17 +5,18 @@ import { DashboardComponent } from './admin/components/dashboard/dashboard.compo
 import { HomeComponent } from './ui/components/home/home.component';
 import { BasketsModule } from './ui/components/baskets/baskets.module';
 import { ProductsModule } from './admin/components/products/products.module';
+import { authGuard } from './guards/common/auth.guard';
 
 const routes: Routes = [
   {path : "admin", component:LayoutComponent, children : [
-    {path : "", component : DashboardComponent},
+    {path : "", component : DashboardComponent, canActivate: [authGuard]},
     {path : "customers", loadChildren : ()=> import("./admin/components/customer/customer.module").then
-    (module => module.CustomerModule)},
+    (module => module.CustomerModule), canActivate: [authGuard]},
     {path : "products", loadChildren : ()=> import("./admin/components/products/products.module").then
-    (module => module.ProductsModule)},
+    (module => module.ProductsModule), canActivate: [authGuard]},
     {path : "orders", loadChildren : ()=> import("./admin/components/order/order.module").then
-    (module => module.OrderModule)}
-    ]
+    (module => module.OrderModule), canActivate: [authGuard]}
+    ], canActivate: [authGuard]
   },
   {path : "", component:HomeComponent},
   {path : "basket", loadChildren : ()=> import("./ui/components/baskets/baskets.module").then
