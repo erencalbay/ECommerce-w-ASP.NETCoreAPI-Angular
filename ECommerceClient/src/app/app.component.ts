@@ -10,9 +10,9 @@ declare var $:any
 export class AppComponent {
   title = 'ECommerceClient';
   constructor(private toastrService : CustomToastrService){
-    toastrService.message("Message", "Info", {
+    /*toastrService.message("Message", "Info", {
       messageType: ToastrMessageType.Info,
       position: ToastrPosition.TopCenter
-    });
+    });*/
   }
 }

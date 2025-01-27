@@ -1,18 +1,19 @@
 <div class="row">
-    <div class = "col-md-3" ></div>
-    <div class = "col-md-6" >
-        <form>
-          <div class="mb-3">
-            <label for="username">Username</label>
-            <input #txtUsernameOrEmail type="text" class="form-control" id="username" placeholder="Username or Email">
-            <div class="form-text text-muted invalid-feedback">****</div>
-          </div>
-          <div class="mb-3">
-            <label for="password">Password</label>
-            <input #txtPassword type="password" class="form-control" id="password" placeholder="Password">
-          </div>
-          <button style="margin-top:6px;" class="btn btn-primary" (click)="login(txtUsernameOrEmail.value, txtPassword.value)">Login</button>
-        </form>
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input #txtUsernameOrEmail type="text" class="form-control" id="username" placeholder="Username & Email">
+      <small class="form-text text-muted invalid-feedback">***</small>
     </div>
-    <div class = "col-md-3" ></div>
-</div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input #txtPassword type="password" class="form-control" id="password" placeholder="Password">
+    </div>
+
+    <button style="margin-top:5px;" type="submit" class="btn btn-primary" (click)="login(txtUsernameOrEmail.value, txtPassword.value)">Login</button>
+
+  </div>
+  <div class="col-md-3"></div>
+</div>  

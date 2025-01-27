@@ -3,9 +3,11 @@ using ECommerceAPI.Application.Validators.Products;
 using ECommerceAPI.Infrastructure;
 using ECommerceAPI.Infrastructure.Filters;
 using ECommerceAPI.Infrastructure.Services.Storage.Azure;
-using ECommerceAPI.Infrastructure.Services.Storage.Local;
 using ECommerceAPI.Persistence;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,7 +25,7 @@ builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
 //policy
 //.AllowAnyHeader()
 //.AllowAnyMethod()
-//.AllowAnyOrigin()qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+//.AllowAnyOrigin()
 policy
 .WithOrigins("http://localhost:4200", "https://localhost:4200")
 .AllowAnyHeader()
@@ -38,7 +40,23 @@ builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>
                 .ConfigureApiBehaviorOptions(options => options.SuppressModelStateInvalidFilter = true);
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();   
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddAuthentication("Admin")
+    .AddJwtBearer(options =>
+    {
+    options.TokenValidationParameters = new()
+        {
+            ValidateAudience = true, // which origin/site use token value
+            ValidateIssuer = true, // who will use the token value 
+            ValidateLifetime = true, // checking for token value time
+            ValidateIssuerSigningKey = true, // security key about who belongs to token value 
+
+            ValidAudience = builder.Configuration["Token:Audience"],
+            ValidIssuer = builder.Configuration["Token:Issuer"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Token:SecurityKey"]))
+        };
+    });
 
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
@@ -51,6 +69,7 @@ app.UseStaticFiles();
 app.UseCors();
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
