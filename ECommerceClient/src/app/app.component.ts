@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { CustomToastrService, ToastrMessageType, ToastrPosition } from './services/ui/custom-toastr.service';
+import { AuthService } from './services/common/auth.service';
+import { Router } from '@angular/router';
 declare var $:any
 
 @Component({
@@ -8,11 +10,18 @@ declare var $:any
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ECommerceClient';
-  constructor(private toastrService : CustomToastrService){
-    /*toastrService.message("Message", "Info", {
-      messageType: ToastrMessageType.Info,
-      position: ToastrPosition.TopCenter
-    });*/
+  constructor(private toastrService : CustomToastrService, public authService: AuthService, private router: Router){
+    authService.identityCheck();
+  }
+
+
+  signOut(){
+    localStorage.removeItem("accessToken");
+    this.authService.identityCheck();
+    this.router.navigate([""]);
+    this.toastrService.message("Logged out", "Logged out",{
+      messageType: ToastrMessageType.Warning,
+      position: ToastrPosition.TopRight
+    })
   }
 }
