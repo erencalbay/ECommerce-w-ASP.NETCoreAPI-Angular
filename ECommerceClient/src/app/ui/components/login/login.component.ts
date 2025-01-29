@@ -4,7 +4,7 @@ import { BaseComponent, SpinnerType } from '../../../base/base.component';
 import { UserService } from '../../../services/common/models/user.service';
 import { AuthService } from 'src/app/services/common/auth.service';
 import { ActivatedRoute, Router } from '@angular/router';
-import { SocialAuthService, SocialUser } from '@abacritt/angularx-social-login';
+import { FacebookLoginProvider, SocialAuthService, SocialUser } from '@abacritt/angularx-social-login';
 import { HttpClientService } from 'src/app/services/common/http-client.service';
 import { Token } from '@angular/compiler';
 
@@ -20,7 +20,20 @@ export class LoginComponent extends BaseComponent implements OnInit {
     socialAuthService.authState.subscribe(async ( user: SocialUser) => {
         console.log(user);
         this.showSpinner(SpinnerType.BallAtom);
-        await userService.googleLogin(user, () => this.hideSpinner(SpinnerType.BallAtom))
+        switch (user.provider) {
+          case "GOOGLE":
+            await userService.googleLogin(user, () => {
+              this.authService.identityCheck();
+              this.hideSpinner(SpinnerType.BallAtom);
+            })
+            break;
+          case "FACEBOOK":
+            await userService.facebookLogin(user, () => {
+              this.authService.identityCheck();
+              this.hideSpinner(SpinnerType.BallAtom);
+            })
+            break;
+        }
     }); 
   }
 
@@ -30,7 +43,6 @@ export class LoginComponent extends BaseComponent implements OnInit {
   async login(usernameOrEmail: string, password: string) {
     this.showSpinner(SpinnerType.BallAtom);
     await this.userService.login(usernameOrEmail, password, () => {
-      this.authService.identityCheck();
       this.activatedRoute.queryParams.subscribe(params => {
         const returnUrl: string = params["returnUrl"];
         if(returnUrl)
@@ -38,5 +50,11 @@ export class LoginComponent extends BaseComponent implements OnInit {
       });
       this.hideSpinner(SpinnerType.BallAtom)
     });
+
+    
   }
+  facebookLogin(){
+    this.socialAuthService.signIn(FacebookLoginProvider.PROVIDER_ID);
+  }
+
 }
