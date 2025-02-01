@@ -1,5 +1,4 @@
-﻿using ECommerceAPI.Application.Abstractions.Storage;
-using ECommerceAPI.Application.Features.Commands.Product.CreateProduct;
+﻿using ECommerceAPI.Application.Features.Commands.Product.CreateProduct;
 using ECommerceAPI.Application.Features.Commands.Product.DeleteProduct;
 using ECommerceAPI.Application.Features.Commands.Product.UpdateProduct;
 using ECommerceAPI.Application.Features.Commands.ProductImageFile.DeleteProductmage;
@@ -7,18 +6,8 @@ using ECommerceAPI.Application.Features.Commands.ProductImageFile.UploadProductI
 using ECommerceAPI.Application.Features.Queries.Product.GetAllProduct;
 using ECommerceAPI.Application.Features.Queries.Product.GetByIdProduct;
 using ECommerceAPI.Application.Features.Queries.ProductImageFile.GetProductImages;
-using ECommerceAPI.Application.Repositories.CustomerRepository;
-using ECommerceAPI.Application.Repositories.File;
-using ECommerceAPI.Application.Repositories.InvoiceFile;
-using ECommerceAPI.Application.Repositories.OrderRepository;
-using ECommerceAPI.Application.Repositories.ProductImageFile;
-using ECommerceAPI.Application.Repositories.ProductRepository;
-using ECommerceAPI.Application.RequestParameters;
-using ECommerceAPI.Application.ViewModels.Products;
-using ECommerceAPI.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using System.Net;
 
 namespace ECommerceAPI.API.Controllers
@@ -27,36 +16,14 @@ namespace ECommerceAPI.API.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly IProductWriteRepository _productWriteRepository;
-        private readonly IProductReadRepository _productReadRepository;
-        private readonly IWebHostEnvironment _webHostEnvironment;
-        readonly IFileWriteRepository _fileWriteRepository;
-        readonly IFileReadRepository _fileReadRepository;
-        readonly IProductImageFileReadRepository _productImageFileReadRepository;
-        readonly IProductImageFileWriteRepository _productImageFileWriteRepository;
-        readonly IInvoiceFileWriteRepository _invoiceFileWriteRepository;
-        readonly IInvoiceFileReadRepository _invoiceFileReadRepository;
-        readonly IStorageService _storageService;
-        readonly IConfiguration _configuration;
-
-
 
         readonly IMediator _mediator;
+        readonly ILogger<ProductsController> _logger;
 
-        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IWebHostEnvironment webHostEnvironment, IStorageService storageService, IFileWriteRepository fileWriteRepository, IFileReadRepository fileReadRepository, IProductImageFileReadRepository productImageFileReadRepository, IProductImageFileWriteRepository productImageFileWriteRepository, IInvoiceFileWriteRepository invoiceFileWriteRepository, IInvoiceFileReadRepository invoiceFileReadRepository, IConfiguration configuration, IMediator mediator)
+        public ProductsController(IMediator mediator, ILogger<ProductsController> logger)
         {
-            _productWriteRepository = productWriteRepository;
-            _productReadRepository = productReadRepository;
-            this._webHostEnvironment = webHostEnvironment;
-            _storageService = storageService;
-            _fileWriteRepository = fileWriteRepository;
-            _fileReadRepository = fileReadRepository;
-            _productImageFileReadRepository = productImageFileReadRepository;
-            _productImageFileWriteRepository = productImageFileWriteRepository;
-            _invoiceFileWriteRepository = invoiceFileWriteRepository;
-            _invoiceFileReadRepository = invoiceFileReadRepository;
-            _configuration = configuration;
             _mediator = mediator;
+            _logger = logger;
         }
 
         [HttpGet]

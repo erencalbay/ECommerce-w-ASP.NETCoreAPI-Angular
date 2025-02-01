@@ -1,7 +1,9 @@
 ﻿using ECommerceAPI.Application.Abstractions.Token;
+using ECommerceAPI.Domain.Entities.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -16,7 +18,7 @@ namespace ECommerceAPI.Infrastructure.Services.Token
             _configuration = configuration;
         }
 
-        public Application.DTOs.Token CreateAccessToken(int second)
+        public Application.DTOs.Token CreateAccessToken(int second, AppUser user)
         {
             Application.DTOs.Token token = new();
 
@@ -25,7 +27,7 @@ namespace ECommerceAPI.Infrastructure.Services.Token
             SigningCredentials signingCredentials = new(securityKey, SecurityAlgorithms.HmacSha256);
 
             token.Expiration = DateTime.UtcNow.AddSeconds(second);
-            JwtSecurityToken securityToken = new(audience: _configuration["Token:Audience"], issuer: _configuration["Token:Issuer"], expires: token.Expiration, notBefore: DateTime.UtcNow, signingCredentials: signingCredentials);
+            JwtSecurityToken securityToken = new(audience: _configuration["Token:Audience"], issuer: _configuration["Token:Issuer"], expires: token.Expiration, notBefore: DateTime.UtcNow, signingCredentials: signingCredentials, claims: new List<Claim> { new(ClaimTypes.Name, user.UserName) });
 
             JwtSecurityTokenHandler tokenHandler = new();
             token.AccessToken = tokenHandler.WriteToken(securityToken);
