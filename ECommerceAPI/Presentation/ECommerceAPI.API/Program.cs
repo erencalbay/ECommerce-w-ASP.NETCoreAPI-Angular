@@ -17,12 +17,16 @@ using Serilog.Core;
 using System.Security.Claims;
 using Serilog.Context;
 using ECommerceAPI.API.Extensions;
+using ECommerceAPI.SignalR;
+using ECommerceAPI.SignalR.Hubs;
+using Microsoft.AspNetCore.Builder;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
 builder.Services.AddApplicationServices();
+builder.Services.AddSignalRServices();
 
 //builder.Services.AddStorage<LocalStorage>();
 builder.Services.AddStorage<AzureStorage>();
@@ -39,6 +43,7 @@ policy
 .WithOrigins("http://localhost:4200", "https://localhost:4200")
 .AllowAnyHeader()
 .AllowAnyMethod()
+.AllowCredentials()
 ));
 
 Logger log = new LoggerConfiguration()
@@ -125,5 +130,6 @@ app.Use(async (context, next) =>
 });
 
 app.MapControllers();
+app.MapHubs();
 
 app.Run();

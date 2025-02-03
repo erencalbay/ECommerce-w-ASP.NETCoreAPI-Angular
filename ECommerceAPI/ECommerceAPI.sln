@@ -5,19 +5,25 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E1C3D6B0-B068-4A8B-9E0E-8ACEC296D846}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Domain", "Core\ECommerceAPI.Domain\ECommerceAPI.Domain.csproj", "{3241FDE0-98BF-4757-BB68-042686E5AE6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceAPI.Domain", "Core\ECommerceAPI.Domain\ECommerceAPI.Domain.csproj", "{3241FDE0-98BF-4757-BB68-042686E5AE6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Application", "Core\ECommerceAPI.Application\ECommerceAPI.Application.csproj", "{031E0382-B187-412C-A85D-194A62823022}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceAPI.Application", "Core\ECommerceAPI.Application\ECommerceAPI.Application.csproj", "{031E0382-B187-412C-A85D-194A62823022}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7BD115A1-73EB-4DC0-978E-9E334C55E47F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Infrastructure", "Infrastructure\ECommerceAPI.Infrastructure\ECommerceAPI.Infrastructure.csproj", "{F369C0AE-996A-4563-93DF-7CA717B3ED7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceAPI.Infrastructure", "Infrastructure\ECommerceAPI.Infrastructure\ECommerceAPI.Infrastructure.csproj", "{F369C0AE-996A-4563-93DF-7CA717B3ED7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Persistence", "Infrastructure\ECommerceAPI.Persistence\ECommerceAPI.Persistence.csproj", "{884967C0-87FD-4A28-B10C-ED9E049D0F21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceAPI.Persistence", "Infrastructure\ECommerceAPI.Persistence\ECommerceAPI.Persistence.csproj", "{884967C0-87FD-4A28-B10C-ED9E049D0F21}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{8AE5A29E-BBC2-40D9-AD88-F53A54EBD242}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.API", "Presentation\ECommerceAPI.API\ECommerceAPI.API.csproj", "{CB109FDA-9260-4DBE-9862-D98207864107}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceAPI.API", "Presentation\ECommerceAPI.API\ECommerceAPI.API.csproj", "{CB109FDA-9260-4DBE-9862-D98207864107}"
+	ProjectSection(ProjectDependencies) = postProject
+		{031E0382-B187-412C-A85D-194A62823022} = {031E0382-B187-412C-A85D-194A62823022}
+		{F17871E3-B801-469C-9C24-86824BC03DA4} = {F17871E3-B801-469C-9C24-86824BC03DA4}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceAPI.SignalR", "Infrastructure\ECommerceAPI.SignalR\ECommerceAPI.SignalR.csproj", "{F17871E3-B801-469C-9C24-86824BC03DA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,10 @@ Global
 		{CB109FDA-9260-4DBE-9862-D98207864107}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB109FDA-9260-4DBE-9862-D98207864107}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB109FDA-9260-4DBE-9862-D98207864107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17871E3-B801-469C-9C24-86824BC03DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17871E3-B801-469C-9C24-86824BC03DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17871E3-B801-469C-9C24-86824BC03DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17871E3-B801-469C-9C24-86824BC03DA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +65,7 @@ Global
 		{F369C0AE-996A-4563-93DF-7CA717B3ED7B} = {7BD115A1-73EB-4DC0-978E-9E334C55E47F}
 		{884967C0-87FD-4A28-B10C-ED9E049D0F21} = {7BD115A1-73EB-4DC0-978E-9E334C55E47F}
 		{CB109FDA-9260-4DBE-9862-D98207864107} = {8AE5A29E-BBC2-40D9-AD88-F53A54EBD242}
+		{F17871E3-B801-469C-9C24-86824BC03DA4} = {7BD115A1-73EB-4DC0-978E-9E334C55E47F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A68DE90F-4B82-4587-9E99-86C8D753BEDC}
