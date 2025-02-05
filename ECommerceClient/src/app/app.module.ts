@@ -17,6 +17,7 @@ import { HttpErrorHandlerInterceptorService } from './services/common/http-error
   declarations: [
     AppComponent,
     LoginComponent
+    
   ],
   imports: [
     BrowserModule,

@@ -20,6 +20,7 @@ using ECommerceAPI.API.Extensions;
 using ECommerceAPI.SignalR;
 using ECommerceAPI.SignalR.Hubs;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -85,22 +86,23 @@ builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddAuthentication("Admin")
-    .AddJwtBearer(options =>
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer("Admin", options =>
     {
-    options.TokenValidationParameters = new()
+        options.TokenValidationParameters = new()
         {
             ValidateAudience = true, // which origin/site use token value
             ValidateIssuer = true, // who will use the token value 
-            ValidateLifetime = true, // checking for token value time
+            ValidateLifetime = true, // checking for token value time.
             ValidateIssuerSigningKey = true, // security key about who belongs to token value 
 
             ValidAudience = builder.Configuration["Token:Audience"],
             ValidIssuer = builder.Configuration["Token:Issuer"],
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Token:SecurityKey"])),
             LifetimeValidator = (notBefore, expires, securityToken, validationParameters) => expires != null ? expires > DateTime.UtcNow : false,
-            NameClaimType = ClaimTypes.Name
-    };
+
+            NameClaimType = ClaimTypes.Name // The value corresponding to the Name request on JWT can be obtained from the User.Identity.Name property.
+        };
     });
 
 var app = builder.Build();

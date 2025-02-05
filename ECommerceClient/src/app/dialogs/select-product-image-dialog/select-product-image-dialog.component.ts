@@ -26,8 +26,6 @@ export class SelectProductImageDialogComponent extends BaseDialog<SelectProductI
     super(dialogRef);
   }
 
-  
-
   @Output() options: Partial<FileUploadOptions> = {
     accept: ".png, .jpg, .jpeg, .gif",
     action: "upload",
@@ -57,6 +55,13 @@ export class SelectProductImageDialogComponent extends BaseDialog<SelectProductI
         });
       }
     })
+  }
+  showCase(imageId: string) {
+    this.spinner.show(SpinnerType.BallAtom);
+    console.log("araba");
+    this.productService.changeShowcaseImage(imageId, this.data as string, () => {
+      this.spinner.hide(SpinnerType.BallAtom);
+    });
   }
 }
 
