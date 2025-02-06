@@ -30,11 +30,10 @@ export class ListComponent implements OnInit {
         });
       this.products = data.products;
       this.products = this.products.map<List_Product>(p => {
-        debugger;
         const listProduct: List_Product = {
           id: p.id,
           createdDate: p.createdDate,
-          imagePath: p.productImageFiles.length ? p.productImageFiles.find(p => p.showcase).path : "",
+          imagePath: p.productImageFiles.length ? p.productImageFiles.find(p => p.id).path : "",
           name: p.name,
           price: p.price,
           stock: p.stock,
