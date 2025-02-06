@@ -17,6 +17,8 @@ using ECommerceAPI.Persistence.Repositories.ProductConcrete;
 using ECommerceAPI.Persistence.Repositories.ProductImageFileConcrete;
 using ECommerceAPI.Persistence.Contexts;
 using ECommerceAPI.Persistence.Services;
+using ECommerceAPI.Application.Repositories;
+using ECommerceAPI.Persistence.Repositories;
 
 namespace ECommerceAPI.Persistence
 {
@@ -46,12 +48,18 @@ namespace ECommerceAPI.Persistence
             services.AddScoped<IProductImageFileWriteRepository, ProductImageFileWriteRepository>();
             services.AddScoped<IInvoiceFileReadRepository, InvoiceFileReadRepository>();
             services.AddScoped<IInvoiceFileWriteRepository, InvoiceFileWriteRepository>();
+            services.AddScoped<IBasketItemReadRepository, BasketItemReadRepository>();
+            services.AddScoped<IBasketItemWriteRepository, BasketItemWriteRepository>();
+            services.AddScoped<IBasketReadRepository, BasketReadRepository>();
+            services.AddScoped<IBasketWriteRepository, BasketWriteRepository>();
 
 
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IExternalAuthentication, AuthService>();
             services.AddScoped<IInternalAuthentication, AuthService>();
+            services.AddScoped<IBasketService, BasketService>();
+
         }
     }
 }

@@ -19558,3 +19558,45 @@ Content-Type: application/json; charset=utf-8
 2025-02-06 02:05:49.412 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
 2025-02-06 02:05:49.413 +03:00 [INF] ResponseBody: {"totalProductCount":2,"products":[{"id":"84bf2207-94fd-45ab-aea8-596b310f3d8c","name":"Tablet","stock":10,"price":700,"createdDate":"2025-02-03T22:24:07.715853Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":false,"product":null,"fileName":"abc123.png","path":"photo-images/abc123.png","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"38c9fead-f7b6-4bcc-9970-7f48c379f6b6","createdDate":"2025-02-05T21:33:07.459944Z"}]},{"id":"8b8fb614-091b-4bb3-8d86-acf2e73d4f22","name":"Bilgisayar","stock":1,"price":1111,"createdDate":"2025-01-14T16:43:41.306098Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":false,"product":null,"fileName":"GhHFVTCW4AAYYyj.jpg","path":"photo-images/GhHFVTCW4AAYYyj-2.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"40cdd56e-1dcd-4bd5-9acf-3928d3f7cbe1","createdDate":"2025-01-15T11:30:56.33628Z"}]}]}
 2025-02-06 02:05:49.415 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/products?page=0&size=12 - - - 200 - application/json;+charset=utf-8 39.3280ms
+2025-02-06 14:06:13.705 +03:00 [INF] User profile is available. Using 'C:\Users\erenc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 14:06:14.063 +03:00 [INF] Now listening on: https://localhost:7093
+2025-02-06 14:06:14.064 +03:00 [INF] Now listening on: http://localhost:5193
+2025-02-06 14:06:14.067 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 14:06:14.068 +03:00 [INF] Hosting environment: Development
+2025-02-06 14:06:14.069 +03:00 [INF] Content root path: C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\
+2025-02-06 14:06:14.734 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/swagger/index.html - -
+2025-02-06 14:06:14.996 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/swagger/index.html - - - 200 - text/html;charset=utf-8 264.7748ms
+2025-02-06 14:06:15.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/_framework/aspnetcore-browser-refresh.js - -
+2025-02-06 14:06:15.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/_vs/browserLink - -
+2025-02-06 14:06:15.031 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 7.5231ms
+2025-02-06 14:06:15.095 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 71.6983ms
+2025-02-06 14:06:15.130 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/swagger/v1/swagger.json - -
+2025-02-06 14:06:15.275 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 145.2255ms
+2025-02-06 14:06:20.378 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/Baskets - -
+2025-02-06 14:06:20.390 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Baskets
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-06 14:06:20.507 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 14:06:20.518 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2025-02-06 14:06:20.519 +03:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2025-02-06 14:06:20.526 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/Baskets - - - 401 0 - 148.1186ms
