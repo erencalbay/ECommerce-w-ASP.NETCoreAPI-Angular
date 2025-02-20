@@ -19,6 +19,7 @@ using ECommerceAPI.Persistence.Contexts;
 using ECommerceAPI.Persistence.Services;
 using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Persistence.Repositories;
+using Microsoft.AspNetCore.Identity;
 
 namespace ECommerceAPI.Persistence
 {
@@ -34,7 +35,8 @@ namespace ECommerceAPI.Persistence
                 options.Password.RequireDigit = false;
                 options.Password.RequireLowercase = false;
                 options.Password.RequireUppercase = false;
-            }).AddEntityFrameworkStores<ECommerceAPIDbContext>();
+            }).AddEntityFrameworkStores<ECommerceAPIDbContext>()
+            .AddDefaultTokenProviders();
 
             services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
             services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();

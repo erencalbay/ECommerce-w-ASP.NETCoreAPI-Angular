@@ -28347,3 +28347,320 @@ priority: [Redacted]
 2025-02-20 15:59:32.840 +03:00 [INF] Response:
 StatusCode: 200
 2025-02-20 15:59:32.847 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/Users - - - 200 0 - 3059.4847ms
+2025-02-20 20:27:17.200 +03:00 [INF] User profile is available. Using 'C:\Users\erenc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-20 20:27:17.714 +03:00 [INF] Now listening on: https://localhost:7093
+2025-02-20 20:27:17.716 +03:00 [INF] Now listening on: http://localhost:5193
+2025-02-20 20:27:17.724 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-20 20:27:17.725 +03:00 [INF] Hosting environment: Development
+2025-02-20 20:27:17.726 +03:00 [INF] Content root path: C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\
+2025-02-20 20:27:18.858 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/swagger/index.html - -
+2025-02-20 20:27:19.191 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/swagger/index.html - - - 200 - text/html;charset=utf-8 337.7840ms
+2025-02-20 20:27:19.237 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/_vs/browserLink - -
+2025-02-20 20:27:19.237 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/_framework/aspnetcore-browser-refresh.js - -
+2025-02-20 20:27:19.245 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 7.9257ms
+2025-02-20 20:27:19.338 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 101.0208ms
+2025-02-20 20:27:19.383 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/swagger/v1/swagger.json - -
+2025-02-20 20:27:19.618 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 234.8231ms
+2025-02-20 20:28:06.812 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/users - -
+2025-02-20 20:28:06.823 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/users
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-20 20:28:06.828 +03:00 [INF] CORS policy execution successful.
+2025-02-20 20:28:06.831 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-20 20:28:06.834 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/users - - - 204 - - 21.2220ms
+2025-02-20 20:28:06.835 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7093/api/users application/json 148
+2025-02-20 20:28:06.838 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/users
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 148
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-20 20:28:06.839 +03:00 [INF] CORS policy execution successful.
+2025-02-20 20:28:06.875 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.UsersController.CreateUser (ECommerceAPI.API)'
+2025-02-20 20:28:06.921 +03:00 [INF] Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(ECommerceAPI.Application.Features.Commands.AppUser.CreateUser.CreateUserCommandRequest) on controller ECommerceAPI.API.Controllers.UsersController (ECommerceAPI.API).
+2025-02-20 20:28:06.963 +03:00 [INF] RequestBody: {"nameSurname":"Eren Çalbay","username":"erencalbay11","email":"erencalbay11@outlook.com","password":"Ahmetmehmet.","passwordAgain":"Ahmetmehmet."}
+2025-02-20 20:28:09.023 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-20 20:28:09.328 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[@p0='?', @p1='?' (DbType = Int32), @p2='?', @p3='?', @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime), @p7='?', @p8='?', @p9='?', @p10='?', @p11='?', @p12='?' (DbType = Boolean), @p13='?', @p14='?' (DbType = DateTime), @p15='?', @p16='?' (DbType = Boolean), @p17='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NameSurname", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "RefreshTokenEndDate", "SecurityStamp", "TwoFactorEnabled", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17);
+2025-02-20 20:28:09.358 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Commands.AppUser.CreateUser.CreateUserCommandResponse'.
+2025-02-20 20:28:09.376 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-20 20:28:09.386 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.UsersController.CreateUser (ECommerceAPI.API) in 2459.3035ms
+2025-02-20 20:28:09.389 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.UsersController.CreateUser (ECommerceAPI.API)'
+2025-02-20 20:28:09.392 +03:00 [INF] ResponseBody: {"succeeded":true,"message":"Kullanıcı başarıyla oluşturulmuştur."}
+2025-02-20 20:28:09.413 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7093/api/users application/json 148 - 200 - application/json;+charset=utf-8 2578.1236ms
+2025-02-20 20:28:29.245 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/auth/password-reset - -
+2025-02-20 20:28:29.246 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/password-reset
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-20 20:28:29.248 +03:00 [INF] CORS policy execution successful.
+2025-02-20 20:28:29.248 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-20 20:28:29.249 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/auth/password-reset - - - 204 - - 5.7888ms
+2025-02-20 20:28:29.250 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7093/api/auth/password-reset application/json 36
+2025-02-20 20:28:29.252 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/password-reset
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 36
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-20 20:28:29.254 +03:00 [INF] CORS policy execution successful.
+2025-02-20 20:28:29.255 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.AuthController.PasswordReset (ECommerceAPI.API)'
+2025-02-20 20:28:29.259 +03:00 [INF] Route matched with {action = "PasswordReset", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PasswordReset(ECommerceAPI.Application.Features.Commands.AppUser.PasswordReset.PasswordResetCommandRequest) on controller ECommerceAPI.API.Controllers.AuthController (ECommerceAPI.API).
+2025-02-20 20:28:29.263 +03:00 [INF] RequestBody: {"email":"erencalbay11@outlook.com"}
+2025-02-20 20:28:29.320 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-02-20 20:28:32.771 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Commands.AppUser.PasswordReset.PasswordResetCommandResponse'.
+2025-02-20 20:28:32.776 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-20 20:28:32.777 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.AuthController.PasswordReset (ECommerceAPI.API) in 3515.0265ms
+2025-02-20 20:28:32.778 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.AuthController.PasswordReset (ECommerceAPI.API)'
+2025-02-20 20:28:32.778 +03:00 [INF] ResponseBody: {}
+2025-02-20 20:28:32.779 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7093/api/auth/password-reset application/json 36 - 200 - application/json;+charset=utf-8 3529.2522ms
+2025-02-20 20:29:07.055 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/auth/verify-reset-token - -
+2025-02-20 20:29:07.061 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/verify-reset-token
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-20 20:29:07.063 +03:00 [INF] CORS policy execution successful.
+2025-02-20 20:29:07.065 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-20 20:29:07.066 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/auth/verify-reset-token - - - 204 - - 11.4829ms
+2025-02-20 20:29:07.068 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7093/api/auth/verify-reset-token application/json 385
+2025-02-20 20:29:07.070 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/verify-reset-token
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 385
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-20 20:29:07.072 +03:00 [INF] CORS policy execution successful.
+2025-02-20 20:29:07.076 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.AuthController.VerifyResetToken (ECommerceAPI.API)'
+2025-02-20 20:29:07.080 +03:00 [INF] Route matched with {action = "VerifyResetToken", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyResetToken(ECommerceAPI.Application.Features.Commands.AppUser.VerifyResetToken.VerifyResetTokenCommandRequest) on controller ECommerceAPI.API.Controllers.AuthController (ECommerceAPI.API).
+2025-02-20 20:29:07.083 +03:00 [INF] RequestBody: {"resetToken":"Q2ZESjhBOExmZVVUak01TmtxbXAza0JNdGlhUEtUMUYrenQ3c2EzYXJWckhGYkpLTzZrZHlzNGpOUDI3WVBnUWhnVThlc2t0a05YazNmVEJJOHhCdisvQTJSRGhTL3BPdzNGdDdQSjJaaEMyTHo1L216T0x1SXd0Y3oybS9lbXNaajR2SSszMklLU2k1UDNrNG9pVFljNGRHVEMyRWhOSkt1by9TVE5iQnRrbnlFdUZsYmVZN3BlMGlEek9vMWpqYzVocVpySUlQTkJYNGcveHRaM1QwYmh2OVc4VDVWL01SSGRTOUJ6YnhERm1ONmpZ","userId":"54311608-b2b0-4ae7-8679-fbab58e9fc43"}
+2025-02-20 20:29:07.130 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-02-20 20:29:07.143 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Commands.AppUser.VerifyResetToken.VerifyResetTokenCommandResponse'.
+2025-02-20 20:29:07.145 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-20 20:29:07.146 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.AuthController.VerifyResetToken (ECommerceAPI.API) in 63.6739ms
+2025-02-20 20:29:07.147 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.AuthController.VerifyResetToken (ECommerceAPI.API)'
+2025-02-20 20:29:07.148 +03:00 [INF] ResponseBody: {"state":true}
+2025-02-20 20:29:07.148 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7093/api/auth/verify-reset-token application/json 385 - 200 - application/json;+charset=utf-8 80.6194ms
+2025-02-20 20:29:18.169 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/users/update-password - -
+2025-02-20 20:29:18.170 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/users/update-password
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-20 20:29:18.171 +03:00 [INF] CORS policy execution successful.
+2025-02-20 20:29:18.172 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-20 20:29:18.173 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/users/update-password - - - 204 - - 3.5643ms
+2025-02-20 20:29:18.174 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7093/api/users/update-password application/json 444
+2025-02-20 20:29:18.175 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/users/update-password
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 444
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-20 20:29:18.176 +03:00 [INF] CORS policy execution successful.
+2025-02-20 20:29:18.177 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.UsersController.UpdatePassword (ECommerceAPI.API)'
+2025-02-20 20:29:18.180 +03:00 [INF] Route matched with {action = "UpdatePassword", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePassword(ECommerceAPI.Application.Features.Commands.AppUser.UpdatePassword.UpdatePasswordCommandRequest) on controller ECommerceAPI.API.Controllers.UsersController (ECommerceAPI.API).
+2025-02-20 20:29:18.182 +03:00 [INF] RequestBody: {"userId":"54311608-b2b0-4ae7-8679-fbab58e9fc43","resetToken":"Q2ZESjhBOExmZVVUak01TmtxbXAza0JNdGlhUEtUMUYrenQ3c2EzYXJWckhGYkpLTzZrZHlzNGpOUDI3WVBnUWhnVThlc2t0a05YazNmVEJJOHhCdisvQTJSRGhTL3BPdzNGdDdQSjJaaEMyTHo1L216T0x1SXd0Y3oybS9lbXNaajR2SSszMklLU2k1UDNrNG9pVFljNGRHVEMyRWhOSkt1by9TVE5iQnRrbnlFdUZsYmVZN3BlMGlEek9vMWpqYzVocVpySUlQTkJYNGcveHRaM1QwYmh2OVc4VDVWL01SSGRTOUJ6YnhERm1ONmpZ","password":"Ereneren123.","passwordConfirm":"Ereneren123."}
+2025-02-20 20:29:18.194 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-02-20 20:29:18.203 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-20 20:29:18.223 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2025-02-20 20:29:18.232 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-20 20:29:18.239 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2025-02-20 20:29:18.243 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Commands.AppUser.UpdatePassword.UpdatePasswordCommandResponse'.
+2025-02-20 20:29:18.245 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-20 20:29:18.246 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.UsersController.UpdatePassword (ECommerceAPI.API) in 64.7889ms
+2025-02-20 20:29:18.248 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.UsersController.UpdatePassword (ECommerceAPI.API)'
+2025-02-20 20:29:18.248 +03:00 [INF] ResponseBody: {}
+2025-02-20 20:29:18.249 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7093/api/users/update-password application/json 444 - 200 - application/json;+charset=utf-8 75.1285ms
