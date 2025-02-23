@@ -23,6 +23,8 @@ using Microsoft.AspNetCore.Identity;
 using ECommerceAPI.Application.Repositories.CompletedOrder;
 using ECommerceAPI.Persistence.Repositories.CompletedOrder;
 using ECommerceAPI.Persistence.Repositories.Menu;
+using ECommerceAPI.Application.Abstractions;
+using IProductService = ECommerceAPI.Application.Abstractions.Services.IProductService;
 
 namespace ECommerceAPI.Persistence
 {
@@ -73,6 +75,7 @@ namespace ECommerceAPI.Persistence
             services.AddScoped<IOrderService, OrderService>();
             services.AddScoped<IRoleService, RoleService>();
             services.AddScoped<IAuthorizationEndpointService, AuthorizationEndpointService>();
+            services.AddScoped<IProductService, ProductService>();
 
         }
     }
