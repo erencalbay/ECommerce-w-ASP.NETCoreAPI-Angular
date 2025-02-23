@@ -21,6 +21,7 @@ using ECommerceAPI.SignalR;
 using ECommerceAPI.SignalR.Hubs;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using ECommerceAPI.API.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -79,10 +80,13 @@ builder.Services.AddHttpLogging(logging =>
 
 
 
-builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>())
-                .AddFluentValidation(configuration => configuration.RegisterValidatorsFromAssemblyContaining<CreateProductValidator>
-                ())
-                .ConfigureApiBehaviorOptions(options => options.SuppressModelStateInvalidFilter = true);
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<ValidationFilter>();
+    options.Filters.Add<RolePermissionFilter>();
+})
+    .AddFluentValidation(configuration => configuration.RegisterValidatorsFromAssemblyContaining<CreateProductValidator>())
+    .ConfigureApiBehaviorOptions(options => options.SuppressModelStateInvalidFilter = true);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
