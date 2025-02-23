@@ -39888,3 +39888,1937 @@ Content-Type: application/json; charset=utf-8
 2025-02-23 19:30:22.359 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
 2025-02-23 19:30:22.360 +03:00 [INF] ResponseBody: {"datas":[{"id":"6b753e61-38ba-40c0-9292-429e43f7162d","name":"Admin"},{"id":"6386ea2c-015a-4b6e-b8d7-004c9a90147a","name":"User"}],"totalCount":2}
 2025-02-23 19:30:22.361 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/roles?page=-1&size=-1 - - - 200 - application/json;+charset=utf-8 25.0738ms
+2025-02-23 20:17:19.003 +03:00 [INF] User profile is available. Using 'C:\Users\erenc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-23 20:17:19.481 +03:00 [INF] Now listening on: https://localhost:7093
+2025-02-23 20:17:19.483 +03:00 [INF] Now listening on: http://localhost:5193
+2025-02-23 20:17:19.487 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-23 20:17:19.488 +03:00 [INF] Hosting environment: Development
+2025-02-23 20:17:19.489 +03:00 [INF] Content root path: C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\
+2025-02-23 20:17:20.980 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/swagger/index.html - -
+2025-02-23 20:17:22.008 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/swagger/index.html - - - 200 - text/html;charset=utf-8 1037.1608ms
+2025-02-23 20:17:22.210 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/_framework/aspnetcore-browser-refresh.js - -
+2025-02-23 20:17:22.210 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/_vs/browserLink - -
+2025-02-23 20:17:22.224 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 14.4918ms
+2025-02-23 20:17:22.769 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 558.5362ms
+2025-02-23 20:17:22.820 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/swagger/v1/swagger.json - -
+2025-02-23 20:17:23.256 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Users" for actions - ECommerceAPI.API.Controllers.UsersController.ExampleMailTest (ECommerceAPI.API),ECommerceAPI.API.Controllers.UsersController.GetAllUsers (ECommerceAPI.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-02-23 20:17:23.313 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 493.0662ms
+2025-02-23 20:18:20.562 +03:00 [INF] User profile is available. Using 'C:\Users\erenc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-23 20:18:21.039 +03:00 [INF] Now listening on: https://localhost:7093
+2025-02-23 20:18:21.041 +03:00 [INF] Now listening on: http://localhost:5193
+2025-02-23 20:18:21.046 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-23 20:18:21.048 +03:00 [INF] Hosting environment: Development
+2025-02-23 20:18:21.048 +03:00 [INF] Content root path: C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\
+2025-02-23 20:18:22.232 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/swagger/index.html - -
+2025-02-23 20:18:22.582 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/swagger/index.html - - - 200 - text/html;charset=utf-8 354.1144ms
+2025-02-23 20:18:22.617 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/_framework/aspnetcore-browser-refresh.js - -
+2025-02-23 20:18:22.625 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 8.3101ms
+2025-02-23 20:18:22.637 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/_vs/browserLink - -
+2025-02-23 20:18:22.697 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.5966ms
+2025-02-23 20:18:22.785 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/swagger/v1/swagger.json - -
+2025-02-23 20:18:23.178 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 393.4001ms
+2025-02-23 20:19:30.195 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/auth/google-login - -
+2025-02-23 20:19:30.227 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/google-login
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:19:30.243 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:19:30.249 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:19:30.253 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/auth/google-login - - - 204 - - 57.8937ms
+2025-02-23 20:19:30.257 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7093/api/auth/google-login application/json 1469
+2025-02-23 20:19:30.262 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/google-login
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 1469
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:19:30.266 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:19:30.305 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.AuthController.GoogleLogin (ECommerceAPI.API)'
+2025-02-23 20:19:30.366 +03:00 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(ECommerceAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandRequest) on controller ECommerceAPI.API.Controllers.AuthController (ECommerceAPI.API).
+2025-02-23 20:19:30.393 +03:00 [INF] RequestBody: {"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc2M2Y3YzRjZDI2YTFlYjJiMWIzOWE4OGY0NDM0ZDFmNGQ5YTM2OGIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI3OTAzNzEwMjkxNjctaXVncDU1NjFpcXNqMjVvazNzbWVwZ3ZhNjBzcHM2djIuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI3OTAzNzEwMjkxNjctaXVncDU1NjFpcXNqMjVvazNzbWVwZ3ZhNjBzcHM2djIuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDMwOTY1NzE1NDkzMTc3NDA5MjQiLCJlbWFpbCI6ImVyZW5jYWxiYXlmYjAwQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NDAzMzA4NjksIm5hbWUiOiJFcmVuIMOHYWxiYXkiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSWJUdTZ3M0RCU1hhekFMaVRFaXNuUlE3a2haem8wcTU2SGVzaFo0eVFxQ2M2OU5tQ3g9czk2LWMiLCJnaXZlbl9uYW1lIjoiRXJlbiIsImZhbWlseV9uYW1lIjoiw4dhbGJheSIsImlhdCI6MTc0MDMzMTE2OSwiZXhwIjoxNzQwMzM0NzY5LCJqdGkiOiIzYzA3OTMxYjkwNjVjNjNmNmM4NTY5NTkwYTBjNGYxOTFmMTc2MTdiIn0.dMEww2BtvhXgUAdI4QBFAhl_ZSw9NYZmjB6MdsZjjkXu9bGfvgYQh5MmgC1dbejakQgZ1lxcsOiqZG6gwEeqalTEiUuOgjhbbN-zWwzvk2-W5ku95bvrtlvWLxIlVEDN6uHxgBxVSlhV9M1cOMKiQh621a-Vzgss6XXzILtYlcbLNhOIDaB2S7QwviRQYFpXpUWAsiDayJLztNJlGdrvVX88ft3_vUmfMdgdXFcHu5FYfiBZYoGDjJvf2wZcYhDioIxUYkHIG-I09C0MQ_Ee4kkdA-XxfpEbbDBYqYuGHP08oaEAKZHL0dHxJ_aamEu9KFt1NBWd1S2tg6kMbZG_BA","id":"103096571549317740924","name":"Eren Çalbay","email":"erencalbayfb00@gmail.com","photoUrl":"https://lh3.googleusercontent.com/a/ACg8ocIbTu6w3DBSXazALiTEisnRQ7khZzo0q56HeshZ4yQqCc69NmCx=s96-c","firstName":"Eren","lastName":"Çalbay","provider":"GOOGLE"}
+2025-02-23 20:19:33.850 +03:00 [INF] Executed DbCommand (44ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2025-02-23 20:19:34.076 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2025-02-23 20:19:34.207 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2025-02-23 20:19:34.216 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2025-02-23 20:19:34.222 +03:00 [WRN] AddLogin for user failed because it was already associated with another user.
+2025-02-23 20:19:34.480 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-23 20:19:34.681 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2025-02-23 20:19:34.715 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandResponse'.
+2025-02-23 20:19:34.756 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:19:34.764 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.AuthController.GoogleLogin (ECommerceAPI.API) in 4392.3576ms
+2025-02-23 20:19:34.767 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.AuthController.GoogleLogin (ECommerceAPI.API)'
+2025-02-23 20:19:34.773 +03:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZXJlbmNhbGJheWZiMDBAZ21haWwuY29tIiwibmJmIjoxNzQwMzMxMTc0LCJleHAiOjE3NDAzMzIwNzQsImlzcyI6Ind3dy5teWFwaS5jb20iLCJhdWQiOiJ3d3cuYmlsbWVtbmUuY29tIn0.mWW3XQE-n-fqdFTNwmrbo6DkFPZGUwnm_KxmfQvsiys","expiration":"2025-02-23T17:34:34.2715701Z","refreshToken":"H0hHeZXTdgHMRM86I/K5SpPjPGf38OEqjI1Mdmqo8GU="}}
+2025-02-23 20:19:34.812 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7093/api/auth/google-login application/json 1469 - 200 - application/json;+charset=utf-8 4554.8161ms
+2025-02-23 20:19:38.472 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/orders-hub/negotiate?negotiateVersion=1 - -
+2025-02-23 20:19:38.472 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/products-hub/negotiate?negotiateVersion=1 - -
+2025-02-23 20:19:38.474 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /orders-hub/negotiate
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Cache-Control: max-age=0
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:19:38.475 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /products-hub/negotiate
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Cache-Control: max-age=0
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:19:38.478 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:19:38.480 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:19:38.481 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:19:38.483 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:19:38.484 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/orders-hub/negotiate?negotiateVersion=1 - - - 204 - - 12.0704ms
+2025-02-23 20:19:38.499 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/products-hub/negotiate?negotiateVersion=1 - - - 204 - - 25.9696ms
+2025-02-23 20:19:38.503 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7093/products-hub/negotiate?negotiateVersion=1 - 0
+2025-02-23 20:19:38.503 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7093/orders-hub/negotiate?negotiateVersion=1 - 0
+2025-02-23 20:19:38.507 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /products-hub/negotiate
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+x-signalr-user-agent: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:19:38.509 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /orders-hub/negotiate
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+X-Requested-With: XMLHttpRequest
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+x-signalr-user-agent: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:19:38.514 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:19:38.517 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:19:38.524 +03:00 [INF] Executing endpoint '/products-hub/negotiate'
+2025-02-23 20:19:38.528 +03:00 [INF] Executing endpoint '/orders-hub/negotiate'
+2025-02-23 20:19:38.550 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json
+Content-Length: 316
+2025-02-23 20:19:38.551 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json
+Content-Length: 316
+2025-02-23 20:19:38.554 +03:00 [INF] Executed endpoint '/orders-hub/negotiate'
+2025-02-23 20:19:38.556 +03:00 [INF] Executed endpoint '/products-hub/negotiate'
+2025-02-23 20:19:38.557 +03:00 [INF] ResponseBody: {"negotiateVersion":1,"connectionId":"QS-JfgkJG37Dy638EJAeLw","connectionToken":"y6ux_mmLoMRnEpr86CfdXA","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+2025-02-23 20:19:38.559 +03:00 [INF] ResponseBody: {"negotiateVersion":1,"connectionId":"aZEHo94I6L4JZhaPJHB-Jw","connectionToken":"4doe5fmCDnnn8RETB-dseQ","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+2025-02-23 20:19:38.561 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7093/orders-hub/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 58.1144ms
+2025-02-23 20:19:38.562 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7093/products-hub/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 59.0893ms
+2025-02-23 20:19:38.580 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7093/orders-hub?id=y6ux_mmLoMRnEpr86CfdXA - -
+2025-02-23 20:19:38.581 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /orders-hub
+Connection: Upgrade
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Origin: [Redacted]
+Pragma: [Redacted]
+Upgrade: websocket
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Key: [Redacted]
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-02-23 20:19:38.584 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:19:38.585 +03:00 [INF] Executing endpoint '/orders-hub'
+2025-02-23 20:19:38.615 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7093/products-hub?id=4doe5fmCDnnn8RETB-dseQ - -
+2025-02-23 20:19:38.616 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /products-hub
+Connection: Upgrade
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Cookie: [Redacted]
+Origin: [Redacted]
+Pragma: [Redacted]
+Upgrade: websocket
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Key: [Redacted]
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-02-23 20:19:38.618 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:19:38.618 +03:00 [INF] Executing endpoint '/products-hub'
+2025-02-23 20:19:40.301 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/users?page=0&size=5 - -
+2025-02-23 20:19:40.302 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/users
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:19:40.304 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:19:40.306 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:19:40.307 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/users?page=0&size=5 - - - 204 - - 6.7053ms
+2025-02-23 20:19:40.310 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/users?page=0&size=5 - -
+2025-02-23 20:19:40.312 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/users
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:19:40.313 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:19:40.466 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.UsersController.GetAllUsers (ECommerceAPI.API)'
+2025-02-23 20:19:40.472 +03:00 [INF] Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers(ECommerceAPI.Application.Features.Queries.AppUser.GetAllUsers.GetAllUsersQueryRequest) on controller ECommerceAPI.API.Controllers.UsersController (ECommerceAPI.API).
+2025-02-23 20:19:40.569 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-02-23 20:19:40.574 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-02-23 20:19:40.580 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+LIMIT @__p_1 OFFSET @__p_0
+2025-02-23 20:19:40.654 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "AspNetUsers" AS a
+2025-02-23 20:19:40.664 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.AppUser.GetAllUsers.GetAllUsersQueryResponse'.
+2025-02-23 20:19:40.670 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:19:40.672 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.UsersController.GetAllUsers (ECommerceAPI.API) in 197.4838ms
+2025-02-23 20:19:40.674 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.UsersController.GetAllUsers (ECommerceAPI.API)'
+2025-02-23 20:19:40.677 +03:00 [INF] ResponseBody: {"users":[{"id":"b1c1b197-ce1d-433a-adf2-02f3f35095c9","email":"ahmetkaplan@hotmail.com","nameSurname":"Ahmet Kaplan","userName":"ahmetkaplan","twoFactorEnabled":false},{"id":"d7cbc75e-2d7b-4ebe-8cbc-2b34dd85a316","email":"erencalbay100fb@hotmail.com","nameSurname":"Eren Çalbay","userName":"erencalbay","twoFactorEnabled":false},{"id":"f7940f6d-95a6-4272-9f78-dbbc5ecc4c05","email":"erencalbayfb@hotmail.com","nameSurname":"Eren Çalbay","userName":"erencalbayfb@hotmail.com","twoFactorEnabled":false},{"id":"54311608-b2b0-4ae7-8679-fbab58e9fc43","email":"erencalbay11@outlook.com","nameSurname":"Eren Çalbay","userName":"erencalbay11","twoFactorEnabled":false},{"id":"e06ec855-a615-44b9-88f0-96f84e2757c6","email":"erencalbayfb00@gmail.com","nameSurname":"Eren Çalbay","userName":"erencalbayfb00@gmail.com","twoFactorEnabled":false}],"totalUsersCount":5}
+2025-02-23 20:19:40.682 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/users?page=0&size=5 - - - 200 - application/json;+charset=utf-8 371.6167ms
+2025-02-23 20:20:02.550 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43 - -
+2025-02-23 20:20:02.553 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:02.557 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:02.559 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:20:02.560 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43 - - - 204 - - 9.7480ms
+2025-02-23 20:20:02.562 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43 - -
+2025-02-23 20:20:02.565 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:02.573 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:02.575 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.UsersController.GetRolesToUser (ECommerceAPI.API)'
+2025-02-23 20:20:02.579 +03:00 [INF] Route matched with {action = "GetRolesToUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRolesToUser(ECommerceAPI.Application.Features.Queries.AppUser.GetRolesToUser.GetRolesToUserQueryRequest) on controller ECommerceAPI.API.Controllers.UsersController (ECommerceAPI.API).
+2025-02-23 20:20:02.616 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-02-23 20:20:02.679 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2025-02-23 20:20:02.686 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.AppUser.GetRolesToUser.GetRolesToUserQueryResponse'.
+2025-02-23 20:20:02.689 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:20:02.696 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.UsersController.GetRolesToUser (ECommerceAPI.API) in 114.1371ms
+2025-02-23 20:20:02.697 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.UsersController.GetRolesToUser (ECommerceAPI.API)'
+2025-02-23 20:20:02.698 +03:00 [INF] ResponseBody: {"userRoles":[]}
+2025-02-23 20:20:02.699 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43 - - - 200 - application/json;+charset=utf-8 137.1556ms
+2025-02-23 20:20:02.707 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/roles?page=-1&size=-1 - -
+2025-02-23 20:20:02.709 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:02.712 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:02.713 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:20:02.715 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/roles?page=-1&size=-1 - - - 204 - - 8.0843ms
+2025-02-23 20:20:02.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/roles?page=-1&size=-1 - -
+2025-02-23 20:20:02.718 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:02.720 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:02.723 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:20:02.730 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryRequest) on controller ECommerceAPI.API.Controllers.RolesController (ECommerceAPI.API).
+2025-02-23 20:20:02.746 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "AspNetRoles" AS a
+2025-02-23 20:20:02.751 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryResponse'.
+2025-02-23 20:20:02.771 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Name"
+FROM "AspNetRoles" AS a
+2025-02-23 20:20:02.776 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:20:02.785 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API) in 52.8589ms
+2025-02-23 20:20:02.787 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:20:02.788 +03:00 [INF] ResponseBody: {"datas":[{"id":"6b753e61-38ba-40c0-9292-429e43f7162d","name":"Admin"},{"id":"6386ea2c-015a-4b6e-b8d7-004c9a90147a","name":"User"}],"totalCount":2}
+2025-02-23 20:20:02.789 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/roles?page=-1&size=-1 - - - 200 - application/json;+charset=utf-8 72.4351ms
+2025-02-23 20:20:04.369 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/users/assign-role-to-user - -
+2025-02-23 20:20:04.371 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/users/assign-role-to-user
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:04.372 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:04.373 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:20:04.375 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/users/assign-role-to-user - - - 204 - - 6.1073ms
+2025-02-23 20:20:04.378 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7093/api/users/assign-role-to-user application/json 69
+2025-02-23 20:20:04.380 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/users/assign-role-to-user
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 69
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:04.384 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:04.390 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser (ECommerceAPI.API)'
+2025-02-23 20:20:04.394 +03:00 [INF] Route matched with {action = "AssignRoleToUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssignRoleToUser(ECommerceAPI.Application.Features.Commands.AppUser.AssignRoleToUser.AssignRoleToUserCommandRequest) on controller ECommerceAPI.API.Controllers.UsersController (ECommerceAPI.API).
+2025-02-23 20:20:04.399 +03:00 [INF] RequestBody: {"userId":"54311608-b2b0-4ae7-8679-fbab58e9fc43","roles":[" Admin "]}
+2025-02-23 20:20:04.408 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-02-23 20:20:04.415 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2025-02-23 20:20:04.428 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-23 20:20:04.439 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2025-02-23 20:20:04.457 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2
+2025-02-23 20:20:04.473 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2
+2025-02-23 20:20:04.653 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser (ECommerceAPI.API) in 255.7185ms
+2025-02-23 20:20:04.656 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser (ECommerceAPI.API)'
+2025-02-23 20:20:04.743 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Role  ADMIN  does not exist.
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.AddToRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRolesAsync(TUser user, IEnumerable`1 roles)
+   at ECommerceAPI.Persistence.Services.UserService.AssignRoleToUserAsnyc(String userId, String[] roles) in C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Infrastructure\ECommerceAPI.Persistence\Services\UserService.cs:line 86
+   at ECommerceAPI.Application.Features.Commands.AppUser.AssignRoleToUser.AssignRoleToUserCommandHandler.Handle(AssignRoleToUserCommandRequest request, CancellationToken cancellationToken) in C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Core\ECommerceAPI.Application\Features\Commands\AppUser\AssignRoleToUser\AssignRoleToUserCommandHandler.cs:line 21
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser(AssignRoleToUserCommandRequest assignRoleToUserCommandRequest) in C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\UsersController.cs:line 73
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 132
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2025-02-23 20:20:04.891 +03:00 [ERR] Role  ADMIN  does not exist.
+2025-02-23 20:20:04.894 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7093/api/users/assign-role-to-user application/json 69 - 500 - application/json 516.3163ms
+2025-02-23 20:20:12.513 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43 - -
+2025-02-23 20:20:12.518 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:12.522 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:12.523 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:20:12.525 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43 - - - 204 - - 12.3411ms
+2025-02-23 20:20:12.527 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43 - -
+2025-02-23 20:20:12.528 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:12.544 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:12.548 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.UsersController.GetRolesToUser (ECommerceAPI.API)'
+2025-02-23 20:20:12.550 +03:00 [INF] Route matched with {action = "GetRolesToUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRolesToUser(ECommerceAPI.Application.Features.Queries.AppUser.GetRolesToUser.GetRolesToUserQueryRequest) on controller ECommerceAPI.API.Controllers.UsersController (ECommerceAPI.API).
+2025-02-23 20:20:12.556 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-02-23 20:20:12.562 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2025-02-23 20:20:12.566 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.AppUser.GetRolesToUser.GetRolesToUserQueryResponse'.
+2025-02-23 20:20:12.567 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:20:12.568 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.UsersController.GetRolesToUser (ECommerceAPI.API) in 16.2158ms
+2025-02-23 20:20:12.569 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.UsersController.GetRolesToUser (ECommerceAPI.API)'
+2025-02-23 20:20:12.571 +03:00 [INF] ResponseBody: {"userRoles":[]}
+2025-02-23 20:20:12.572 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43 - - - 200 - application/json;+charset=utf-8 45.1445ms
+2025-02-23 20:20:12.595 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/roles?page=-1&size=-1 - -
+2025-02-23 20:20:12.596 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:12.599 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:12.599 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:20:12.601 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/roles?page=-1&size=-1 - - - 204 - - 5.2404ms
+2025-02-23 20:20:12.602 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/roles?page=-1&size=-1 - -
+2025-02-23 20:20:12.603 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:12.605 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:12.606 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:20:12.610 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryRequest) on controller ECommerceAPI.API.Controllers.RolesController (ECommerceAPI.API).
+2025-02-23 20:20:12.616 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "AspNetRoles" AS a
+2025-02-23 20:20:12.618 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryResponse'.
+2025-02-23 20:20:12.621 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Name"
+FROM "AspNetRoles" AS a
+2025-02-23 20:20:12.624 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:20:12.625 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API) in 12.254ms
+2025-02-23 20:20:12.627 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:20:12.628 +03:00 [INF] ResponseBody: {"datas":[{"id":"6b753e61-38ba-40c0-9292-429e43f7162d","name":"Admin"},{"id":"6386ea2c-015a-4b6e-b8d7-004c9a90147a","name":"User"}],"totalCount":2}
+2025-02-23 20:20:12.629 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/roles?page=-1&size=-1 - - - 200 - application/json;+charset=utf-8 27.0612ms
+2025-02-23 20:20:13.860 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/users/assign-role-to-user - -
+2025-02-23 20:20:13.861 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/users/assign-role-to-user
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:13.863 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:13.864 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:20:13.865 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/users/assign-role-to-user - - - 204 - - 5.4793ms
+2025-02-23 20:20:13.867 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7093/api/users/assign-role-to-user application/json 68
+2025-02-23 20:20:13.868 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/users/assign-role-to-user
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 68
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:13.874 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:13.875 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser (ECommerceAPI.API)'
+2025-02-23 20:20:13.876 +03:00 [INF] Route matched with {action = "AssignRoleToUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssignRoleToUser(ECommerceAPI.Application.Features.Commands.AppUser.AssignRoleToUser.AssignRoleToUserCommandRequest) on controller ECommerceAPI.API.Controllers.UsersController (ECommerceAPI.API).
+2025-02-23 20:20:13.878 +03:00 [INF] RequestBody: {"userId":"54311608-b2b0-4ae7-8679-fbab58e9fc43","roles":[" User "]}
+2025-02-23 20:20:13.882 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-02-23 20:20:13.890 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2025-02-23 20:20:13.895 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-23 20:20:13.902 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2025-02-23 20:20:13.908 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2
+2025-02-23 20:20:13.912 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2
+2025-02-23 20:20:14.018 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser (ECommerceAPI.API) in 140.5281ms
+2025-02-23 20:20:14.020 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser (ECommerceAPI.API)'
+2025-02-23 20:20:14.098 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Role  USER  does not exist.
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.AddToRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRolesAsync(TUser user, IEnumerable`1 roles)
+   at ECommerceAPI.Persistence.Services.UserService.AssignRoleToUserAsnyc(String userId, String[] roles) in C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Infrastructure\ECommerceAPI.Persistence\Services\UserService.cs:line 86
+   at ECommerceAPI.Application.Features.Commands.AppUser.AssignRoleToUser.AssignRoleToUserCommandHandler.Handle(AssignRoleToUserCommandRequest request, CancellationToken cancellationToken) in C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Core\ECommerceAPI.Application\Features\Commands\AppUser\AssignRoleToUser\AssignRoleToUserCommandHandler.cs:line 21
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser(AssignRoleToUserCommandRequest assignRoleToUserCommandRequest) in C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\UsersController.cs:line 73
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 132
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2025-02-23 20:20:14.121 +03:00 [ERR] Role  USER  does not exist.
+2025-02-23 20:20:14.122 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7093/api/users/assign-role-to-user application/json 68 - 500 - application/json 254.8859ms
+2025-02-23 20:20:36.282 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43 - -
+2025-02-23 20:20:36.293 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:36.296 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:36.299 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:20:36.313 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43 - - - 204 - - 31.8022ms
+2025-02-23 20:20:36.325 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43 - -
+2025-02-23 20:20:36.326 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:36.328 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:36.349 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.UsersController.GetRolesToUser (ECommerceAPI.API)'
+2025-02-23 20:20:36.350 +03:00 [INF] Route matched with {action = "GetRolesToUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRolesToUser(ECommerceAPI.Application.Features.Queries.AppUser.GetRolesToUser.GetRolesToUserQueryRequest) on controller ECommerceAPI.API.Controllers.UsersController (ECommerceAPI.API).
+2025-02-23 20:20:36.370 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-02-23 20:20:36.376 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2025-02-23 20:20:36.379 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.AppUser.GetRolesToUser.GetRolesToUserQueryResponse'.
+2025-02-23 20:20:36.380 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:20:36.381 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.UsersController.GetRolesToUser (ECommerceAPI.API) in 26.4097ms
+2025-02-23 20:20:36.382 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.UsersController.GetRolesToUser (ECommerceAPI.API)'
+2025-02-23 20:20:36.383 +03:00 [INF] ResponseBody: {"userRoles":[]}
+2025-02-23 20:20:36.384 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/users/get-roles-to-user/54311608-b2b0-4ae7-8679-fbab58e9fc43 - - - 200 - application/json;+charset=utf-8 59.5726ms
+2025-02-23 20:20:36.397 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/roles?page=-1&size=-1 - -
+2025-02-23 20:20:36.402 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:36.410 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:36.414 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:20:36.416 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/roles?page=-1&size=-1 - - - 204 - - 19.0035ms
+2025-02-23 20:20:36.430 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/roles?page=-1&size=-1 - -
+2025-02-23 20:20:36.432 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:36.436 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:36.438 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:20:36.439 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryRequest) on controller ECommerceAPI.API.Controllers.RolesController (ECommerceAPI.API).
+2025-02-23 20:20:36.449 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "AspNetRoles" AS a
+2025-02-23 20:20:36.451 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryResponse'.
+2025-02-23 20:20:36.459 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Name"
+FROM "AspNetRoles" AS a
+2025-02-23 20:20:36.466 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:20:36.471 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API) in 29.064ms
+2025-02-23 20:20:36.473 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:20:36.475 +03:00 [INF] ResponseBody: {"datas":[{"id":"6b753e61-38ba-40c0-9292-429e43f7162d","name":"Admin"},{"id":"6386ea2c-015a-4b6e-b8d7-004c9a90147a","name":"User"}],"totalCount":2}
+2025-02-23 20:20:36.477 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/roles?page=-1&size=-1 - - - 200 - application/json;+charset=utf-8 46.7889ms
+2025-02-23 20:20:38.638 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/users/assign-role-to-user - -
+2025-02-23 20:20:38.639 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/users/assign-role-to-user
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:38.641 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:38.642 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:20:38.643 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/users/assign-role-to-user - - - 204 - - 5.4490ms
+2025-02-23 20:20:38.645 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7093/api/users/assign-role-to-user application/json 60
+2025-02-23 20:20:38.646 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/users/assign-role-to-user
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 60
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:20:38.649 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:20:38.650 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser (ECommerceAPI.API)'
+2025-02-23 20:20:38.651 +03:00 [INF] Route matched with {action = "AssignRoleToUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssignRoleToUser(ECommerceAPI.Application.Features.Commands.AppUser.AssignRoleToUser.AssignRoleToUserCommandRequest) on controller ECommerceAPI.API.Controllers.UsersController (ECommerceAPI.API).
+2025-02-23 20:20:38.653 +03:00 [INF] RequestBody: {"userId":"54311608-b2b0-4ae7-8679-fbab58e9fc43","roles":[]}
+2025-02-23 20:20:38.657 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-02-23 20:20:38.666 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2025-02-23 20:20:38.671 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-23 20:20:38.682 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2025-02-23 20:20:38.687 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-23 20:20:38.695 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2025-02-23 20:20:38.699 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Commands.AppUser.AssignRoleToUser.AssignRoleToUserCommandResponse'.
+2025-02-23 20:20:38.701 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:20:38.702 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser (ECommerceAPI.API) in 49.169ms
+2025-02-23 20:20:38.702 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser (ECommerceAPI.API)'
+2025-02-23 20:20:38.703 +03:00 [INF] ResponseBody: {}
+2025-02-23 20:20:38.704 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7093/api/users/assign-role-to-user application/json 60 - 200 - application/json;+charset=utf-8 59.1668ms
+2025-02-23 20:25:23.937 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/roles?page=0&size=5 - -
+2025-02-23 20:25:23.939 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:23.942 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:23.944 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:25:23.946 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/roles?page=0&size=5 - - - 204 - - 8.7333ms
+2025-02-23 20:25:23.948 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/roles?page=0&size=5 - -
+2025-02-23 20:25:23.951 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:23.959 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:23.962 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:25:23.962 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryRequest) on controller ECommerceAPI.API.Controllers.RolesController (ECommerceAPI.API).
+2025-02-23 20:25:23.979 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "AspNetRoles" AS a
+2025-02-23 20:25:23.983 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryResponse'.
+2025-02-23 20:25:23.985 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-02-23 20:25:23.987 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-02-23 20:25:23.992 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Name"
+FROM "AspNetRoles" AS a
+LIMIT @__p_1 OFFSET @__p_0
+2025-02-23 20:25:23.995 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:25:23.998 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API) in 33.3397ms
+2025-02-23 20:25:23.999 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:25:24.000 +03:00 [INF] ResponseBody: {"datas":[{"id":"6b753e61-38ba-40c0-9292-429e43f7162d","name":"Admin"},{"id":"6386ea2c-015a-4b6e-b8d7-004c9a90147a","name":"User"}],"totalCount":2}
+2025-02-23 20:25:24.002 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/roles?page=0&size=5 - - - 200 - application/json;+charset=utf-8 53.4829ms
+2025-02-23 20:25:25.020 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/roles - -
+2025-02-23 20:25:25.022 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:25.025 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:25.027 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:25:25.029 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/roles - - - 204 - - 8.4412ms
+2025-02-23 20:25:25.031 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7093/api/roles application/json 11
+2025-02-23 20:25:25.031 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 11
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:25.040 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:25.041 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.RolesController.CreateRole (ECommerceAPI.API)'
+2025-02-23 20:25:25.046 +03:00 [INF] Route matched with {action = "CreateRole", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateRole(ECommerceAPI.Application.Features.Commands.Role.CreateRole.CreateRoleCommandRequest) on controller ECommerceAPI.API.Controllers.RolesController (ECommerceAPI.API).
+2025-02-23 20:25:25.055 +03:00 [INF] RequestBody: {"name":""}
+2025-02-23 20:25:25.066 +03:00 [WRN] Role 3932fa9f-c41d-44be-a500-e96dd350f654 validation failed: InvalidRoleName.
+2025-02-23 20:25:25.069 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Commands.Role.CreateRole.CreateRoleCommandResponse'.
+2025-02-23 20:25:25.072 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:25:25.073 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.RolesController.CreateRole (ECommerceAPI.API) in 19.0764ms
+2025-02-23 20:25:25.075 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.RolesController.CreateRole (ECommerceAPI.API)'
+2025-02-23 20:25:25.076 +03:00 [INF] ResponseBody: {"succeeded":false}
+2025-02-23 20:25:25.076 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7093/api/roles application/json 11 - 200 - application/json;+charset=utf-8 46.0875ms
+2025-02-23 20:25:25.085 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/roles?page=0&size=5 - -
+2025-02-23 20:25:25.087 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:25.088 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:25.089 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:25:25.090 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryRequest) on controller ECommerceAPI.API.Controllers.RolesController (ECommerceAPI.API).
+2025-02-23 20:25:25.095 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "AspNetRoles" AS a
+2025-02-23 20:25:25.100 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryResponse'.
+2025-02-23 20:25:25.104 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Name"
+FROM "AspNetRoles" AS a
+LIMIT @__p_1 OFFSET @__p_0
+2025-02-23 20:25:25.106 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:25:25.107 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API) in 14.7057ms
+2025-02-23 20:25:25.108 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:25:25.109 +03:00 [INF] ResponseBody: {"datas":[{"id":"6b753e61-38ba-40c0-9292-429e43f7162d","name":"Admin"},{"id":"6386ea2c-015a-4b6e-b8d7-004c9a90147a","name":"User"}],"totalCount":2}
+2025-02-23 20:25:25.111 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/roles?page=0&size=5 - - - 200 - application/json;+charset=utf-8 25.1692ms
+2025-02-23 20:25:30.895 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/roles - -
+2025-02-23 20:25:30.896 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:30.898 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:30.898 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:25:30.899 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/roles - - - 204 - - 4.3046ms
+2025-02-23 20:25:30.901 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7093/api/roles application/json 21
+2025-02-23 20:25:30.901 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 21
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:30.903 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:30.904 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.RolesController.CreateRole (ECommerceAPI.API)'
+2025-02-23 20:25:30.906 +03:00 [INF] Route matched with {action = "CreateRole", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateRole(ECommerceAPI.Application.Features.Commands.Role.CreateRole.CreateRoleCommandRequest) on controller ECommerceAPI.API.Controllers.RolesController (ECommerceAPI.API).
+2025-02-23 20:25:30.908 +03:00 [INF] RequestBody: {"name":"DenemeRol1"}
+2025-02-23 20:25:30.914 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-02-23 20:25:30.975 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetRoles" ("Id", "ConcurrencyStamp", "Name", "NormalizedName")
+VALUES (@p0, @p1, @p2, @p3);
+2025-02-23 20:25:30.982 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Commands.Role.CreateRole.CreateRoleCommandResponse'.
+2025-02-23 20:25:30.983 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:25:30.985 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.RolesController.CreateRole (ECommerceAPI.API) in 77.2913ms
+2025-02-23 20:25:30.987 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.RolesController.CreateRole (ECommerceAPI.API)'
+2025-02-23 20:25:30.989 +03:00 [INF] ResponseBody: {"succeeded":true}
+2025-02-23 20:25:30.990 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7093/api/roles application/json 21 - 200 - application/json;+charset=utf-8 89.3658ms
+2025-02-23 20:25:30.998 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/roles?page=0&size=5 - -
+2025-02-23 20:25:31.000 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:31.003 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:31.004 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:25:31.006 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/roles?page=0&size=5 - - - 204 - - 8.1563ms
+2025-02-23 20:25:31.009 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/roles?page=0&size=5 - -
+2025-02-23 20:25:31.010 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:31.017 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:31.019 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:25:31.020 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryRequest) on controller ECommerceAPI.API.Controllers.RolesController (ECommerceAPI.API).
+2025-02-23 20:25:31.026 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "AspNetRoles" AS a
+2025-02-23 20:25:31.032 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryResponse'.
+2025-02-23 20:25:31.036 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Name"
+FROM "AspNetRoles" AS a
+LIMIT @__p_1 OFFSET @__p_0
+2025-02-23 20:25:31.040 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:25:31.041 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API) in 17.587ms
+2025-02-23 20:25:31.045 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:25:31.047 +03:00 [INF] ResponseBody: {"datas":[{"id":"6b753e61-38ba-40c0-9292-429e43f7162d","name":"Admin"},{"id":"6386ea2c-015a-4b6e-b8d7-004c9a90147a","name":"User"},{"id":"8d0cdccd-6a9d-4d8b-8609-86df7774501d","name":"DenemeRol1"}],"totalCount":3}
+2025-02-23 20:25:31.050 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/roles?page=0&size=5 - - - 200 - application/json;+charset=utf-8 41.1278ms
+2025-02-23 20:25:32.660 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/ApplicationServices - -
+2025-02-23 20:25:32.664 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/ApplicationServices
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:32.666 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:32.667 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:25:32.671 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/ApplicationServices - - - 204 - - 10.8471ms
+2025-02-23 20:25:32.673 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/ApplicationServices - -
+2025-02-23 20:25:32.674 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/ApplicationServices
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:32.676 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:32.678 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ApplicationServicesController.GetAuthorizeDefinitionEndpoints (ECommerceAPI.API)'
+2025-02-23 20:25:32.682 +03:00 [INF] Route matched with {action = "GetAuthorizeDefinitionEndpoints", controller = "ApplicationServices"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAuthorizeDefinitionEndpoints() on controller ECommerceAPI.API.Controllers.ApplicationServicesController (ECommerceAPI.API).
+2025-02-23 20:25:32.695 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerceAPI.Application.DTOs.Configuration.Menu, ECommerceAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-23 20:25:32.700 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:25:32.702 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ApplicationServicesController.GetAuthorizeDefinitionEndpoints (ECommerceAPI.API) in 13.3732ms
+2025-02-23 20:25:32.703 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ApplicationServicesController.GetAuthorizeDefinitionEndpoints (ECommerceAPI.API)'
+2025-02-23 20:25:32.705 +03:00 [INF] ResponseBody: [{"name":"Application Services","actions":[{"actionType":"Reading","httpType":"GET","definition":"Get Authorize Definition Endpoints","code":"GET.Reading.GetAuthorizeDefinitionEndpoints"}]},{"name":"Baskets","actions":[{"actionType":"Reading","httpType":"GET","definition":"Get Basket Items","code":"GET.Reading.GetBasketItems"},{"actionType":"Writing","httpType":"POST","definition":"Add Item To Basket","code":"POST.Writing.AddItemToBasket"},{"actionType":"Updating","httpType":"PUT","definition":"Update Quantity","code":"PUT.Updating.UpdateQuantity"},{"actionType":"Deleting","httpType":"DELETE","definition":"Remove Basket Item","code":"DELETE.Deleting.RemoveBasketItem"}]},{"name":"Orders","actions":[{"actionType":"Reading","httpType":"GET","definition":"Get All Orders","code":"GET.Reading.GetAllOrders"},{"actionType":"Reading","httpType":"GET","definition":"Get Order By Id","code":"GET.Reading.GetOrderById"},{"actionType":"Writing","httpType":"POST","definition":"Create Order","code":"POST.Writing.CreateOrder"},{"actionType":"Updating","httpType":"GET","definition":"Complete Order","code":"GET.Updating.CompleteOrder"}]},{"name":"Products","actions":[{"actionType":"Writing","httpType":"POST","definition":"Create Product","code":"POST.Writing.CreateProduct"},{"actionType":"Updating","httpType":"PUT","definition":"Update Product","code":"PUT.Updating.UpdateProduct"},{"actionType":"Deleting","httpType":"DELETE","definition":"Delete Product","code":"DELETE.Deleting.DeleteProduct"},{"actionType":"Writing","httpType":"POST","definition":"Upload Product File","code":"POST.Writing.UploadProductFile"},{"actionType":"Reading","httpType":"GET","definition":"Get Products Images","code":"GET.Reading.GetProductsImages"},{"actionType":"Deleting","httpType":"DELETE","definition":"Delete Product Image","code":"DELETE.Deleting.DeleteProductImage"},{"actionType":"Updating","httpType":"GET","definition":"Change Showcase Image","code":"GET.Updating.ChangeShowcaseImage"}]},{"name":"Roles","actions":[{"actionType":"Reading","httpType":"GET","definition":"Get Roles","code":"GET.Reading.GetRoles"},{"actionType":"Reading","httpType":"GET","definition":"Get Role By Id","code":"GET.Reading.GetRoleById"},{"actionType":"Writing","httpType":"POST","definition":"Create Role","code":"POST.Writing.CreateRole"},{"actionType":"Updating","httpType":"PUT","definition":"Update Role","code":"PUT.Updating.UpdateRole"},{"actionType":"Deleting","httpType":"DELETE","definition":"Delete Role","code":"DELETE.Deleting.DeleteRole"}]},{"name":"Users","actions":[{"actionType":"Reading","httpType":"GET","definition":"Get All Users","code":"GET.Reading.GetAllUsers"},{"actionType":"Reading","httpType":"GET","definition":"Get Roles To Users","code":"GET.Reading.GetRolesToUsers"},{"actionType":"Reading","httpType":"POST","definition":"Assign Role To User","code":"POST.Reading.AssignRoleToUser"}]}]
+2025-02-23 20:25:32.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/ApplicationServices - - - 200 - application/json;+charset=utf-8 37.6870ms
+2025-02-23 20:25:33.410 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/roles?page=0&size=5 - -
+2025-02-23 20:25:33.412 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:33.415 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:33.416 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:25:33.418 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryRequest) on controller ECommerceAPI.API.Controllers.RolesController (ECommerceAPI.API).
+2025-02-23 20:25:33.422 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "AspNetRoles" AS a
+2025-02-23 20:25:33.428 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryResponse'.
+2025-02-23 20:25:33.431 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Name"
+FROM "AspNetRoles" AS a
+LIMIT @__p_1 OFFSET @__p_0
+2025-02-23 20:25:33.436 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:25:33.437 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API) in 17.3263ms
+2025-02-23 20:25:33.438 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:25:33.442 +03:00 [INF] ResponseBody: {"datas":[{"id":"6b753e61-38ba-40c0-9292-429e43f7162d","name":"Admin"},{"id":"6386ea2c-015a-4b6e-b8d7-004c9a90147a","name":"User"},{"id":"8d0cdccd-6a9d-4d8b-8609-86df7774501d","name":"DenemeRol1"}],"totalCount":3}
+2025-02-23 20:25:33.444 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/roles?page=0&size=5 - - - 200 - application/json;+charset=utf-8 34.1184ms
+2025-02-23 20:25:35.719 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/ApplicationServices - -
+2025-02-23 20:25:35.720 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/ApplicationServices
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:35.722 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:35.723 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ApplicationServicesController.GetAuthorizeDefinitionEndpoints (ECommerceAPI.API)'
+2025-02-23 20:25:35.726 +03:00 [INF] Route matched with {action = "GetAuthorizeDefinitionEndpoints", controller = "ApplicationServices"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAuthorizeDefinitionEndpoints() on controller ECommerceAPI.API.Controllers.ApplicationServicesController (ECommerceAPI.API).
+2025-02-23 20:25:35.731 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerceAPI.Application.DTOs.Configuration.Menu, ECommerceAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-23 20:25:35.733 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:25:35.734 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ApplicationServicesController.GetAuthorizeDefinitionEndpoints (ECommerceAPI.API) in 4.6953ms
+2025-02-23 20:25:35.735 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ApplicationServicesController.GetAuthorizeDefinitionEndpoints (ECommerceAPI.API)'
+2025-02-23 20:25:35.736 +03:00 [INF] ResponseBody: [{"name":"Application Services","actions":[{"actionType":"Reading","httpType":"GET","definition":"Get Authorize Definition Endpoints","code":"GET.Reading.GetAuthorizeDefinitionEndpoints"}]},{"name":"Baskets","actions":[{"actionType":"Reading","httpType":"GET","definition":"Get Basket Items","code":"GET.Reading.GetBasketItems"},{"actionType":"Writing","httpType":"POST","definition":"Add Item To Basket","code":"POST.Writing.AddItemToBasket"},{"actionType":"Updating","httpType":"PUT","definition":"Update Quantity","code":"PUT.Updating.UpdateQuantity"},{"actionType":"Deleting","httpType":"DELETE","definition":"Remove Basket Item","code":"DELETE.Deleting.RemoveBasketItem"}]},{"name":"Orders","actions":[{"actionType":"Reading","httpType":"GET","definition":"Get All Orders","code":"GET.Reading.GetAllOrders"},{"actionType":"Reading","httpType":"GET","definition":"Get Order By Id","code":"GET.Reading.GetOrderById"},{"actionType":"Writing","httpType":"POST","definition":"Create Order","code":"POST.Writing.CreateOrder"},{"actionType":"Updating","httpType":"GET","definition":"Complete Order","code":"GET.Updating.CompleteOrder"}]},{"name":"Products","actions":[{"actionType":"Writing","httpType":"POST","definition":"Create Product","code":"POST.Writing.CreateProduct"},{"actionType":"Updating","httpType":"PUT","definition":"Update Product","code":"PUT.Updating.UpdateProduct"},{"actionType":"Deleting","httpType":"DELETE","definition":"Delete Product","code":"DELETE.Deleting.DeleteProduct"},{"actionType":"Writing","httpType":"POST","definition":"Upload Product File","code":"POST.Writing.UploadProductFile"},{"actionType":"Reading","httpType":"GET","definition":"Get Products Images","code":"GET.Reading.GetProductsImages"},{"actionType":"Deleting","httpType":"DELETE","definition":"Delete Product Image","code":"DELETE.Deleting.DeleteProductImage"},{"actionType":"Updating","httpType":"GET","definition":"Change Showcase Image","code":"GET.Updating.ChangeShowcaseImage"}]},{"name":"Roles","actions":[{"actionType":"Reading","httpType":"GET","definition":"Get Roles","code":"GET.Reading.GetRoles"},{"actionType":"Reading","httpType":"GET","definition":"Get Role By Id","code":"GET.Reading.GetRoleById"},{"actionType":"Writing","httpType":"POST","definition":"Create Role","code":"POST.Writing.CreateRole"},{"actionType":"Updating","httpType":"PUT","definition":"Update Role","code":"PUT.Updating.UpdateRole"},{"actionType":"Deleting","httpType":"DELETE","definition":"Delete Role","code":"DELETE.Deleting.DeleteRole"}]},{"name":"Users","actions":[{"actionType":"Reading","httpType":"GET","definition":"Get All Users","code":"GET.Reading.GetAllUsers"},{"actionType":"Reading","httpType":"GET","definition":"Get Roles To Users","code":"GET.Reading.GetRolesToUsers"},{"actionType":"Reading","httpType":"POST","definition":"Assign Role To User","code":"POST.Reading.AssignRoleToUser"}]}]
+2025-02-23 20:25:35.744 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/ApplicationServices - - - 200 - application/json;+charset=utf-8 25.2450ms
+2025-02-23 20:25:37.519 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/users?page=0&size=5 - -
+2025-02-23 20:25:37.520 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/users
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:37.523 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:37.524 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:25:37.525 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/users?page=0&size=5 - - - 204 - - 6.8661ms
+2025-02-23 20:25:37.527 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/users?page=0&size=5 - -
+2025-02-23 20:25:37.533 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/users
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:37.538 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:37.540 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.UsersController.GetAllUsers (ECommerceAPI.API)'
+2025-02-23 20:25:37.541 +03:00 [INF] Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers(ECommerceAPI.Application.Features.Queries.AppUser.GetAllUsers.GetAllUsersQueryRequest) on controller ECommerceAPI.API.Controllers.UsersController (ECommerceAPI.API).
+2025-02-23 20:25:37.550 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+LIMIT @__p_1 OFFSET @__p_0
+2025-02-23 20:25:37.557 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "AspNetUsers" AS a
+2025-02-23 20:25:37.564 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.AppUser.GetAllUsers.GetAllUsersQueryResponse'.
+2025-02-23 20:25:37.566 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:25:37.567 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.UsersController.GetAllUsers (ECommerceAPI.API) in 20.7976ms
+2025-02-23 20:25:37.569 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.UsersController.GetAllUsers (ECommerceAPI.API)'
+2025-02-23 20:25:37.570 +03:00 [INF] ResponseBody: {"users":[{"id":"b1c1b197-ce1d-433a-adf2-02f3f35095c9","email":"ahmetkaplan@hotmail.com","nameSurname":"Ahmet Kaplan","userName":"ahmetkaplan","twoFactorEnabled":false},{"id":"d7cbc75e-2d7b-4ebe-8cbc-2b34dd85a316","email":"erencalbay100fb@hotmail.com","nameSurname":"Eren Çalbay","userName":"erencalbay","twoFactorEnabled":false},{"id":"f7940f6d-95a6-4272-9f78-dbbc5ecc4c05","email":"erencalbayfb@hotmail.com","nameSurname":"Eren Çalbay","userName":"erencalbayfb@hotmail.com","twoFactorEnabled":false},{"id":"e06ec855-a615-44b9-88f0-96f84e2757c6","email":"erencalbayfb00@gmail.com","nameSurname":"Eren Çalbay","userName":"erencalbayfb00@gmail.com","twoFactorEnabled":false},{"id":"54311608-b2b0-4ae7-8679-fbab58e9fc43","email":"erencalbay11@outlook.com","nameSurname":"Eren Çalbay","userName":"erencalbay11","twoFactorEnabled":false}],"totalUsersCount":5}
+2025-02-23 20:25:37.572 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/users?page=0&size=5 - - - 200 - application/json;+charset=utf-8 45.4144ms
+2025-02-23 20:25:38.441 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/users/get-roles-to-user/f7940f6d-95a6-4272-9f78-dbbc5ecc4c05 - -
+2025-02-23 20:25:38.442 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/users/get-roles-to-user/f7940f6d-95a6-4272-9f78-dbbc5ecc4c05
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:38.444 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:38.445 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:25:38.446 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/users/get-roles-to-user/f7940f6d-95a6-4272-9f78-dbbc5ecc4c05 - - - 204 - - 5.3204ms
+2025-02-23 20:25:38.463 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/users/get-roles-to-user/f7940f6d-95a6-4272-9f78-dbbc5ecc4c05 - -
+2025-02-23 20:25:38.464 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/users/get-roles-to-user/f7940f6d-95a6-4272-9f78-dbbc5ecc4c05
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:38.470 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:38.471 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.UsersController.GetRolesToUser (ECommerceAPI.API)'
+2025-02-23 20:25:38.473 +03:00 [INF] Route matched with {action = "GetRolesToUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRolesToUser(ECommerceAPI.Application.Features.Queries.AppUser.GetRolesToUser.GetRolesToUserQueryRequest) on controller ECommerceAPI.API.Controllers.UsersController (ECommerceAPI.API).
+2025-02-23 20:25:38.481 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-02-23 20:25:38.491 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2025-02-23 20:25:38.495 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.AppUser.GetRolesToUser.GetRolesToUserQueryResponse'.
+2025-02-23 20:25:38.496 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:25:38.497 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.UsersController.GetRolesToUser (ECommerceAPI.API) in 20.1926ms
+2025-02-23 20:25:38.500 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.UsersController.GetRolesToUser (ECommerceAPI.API)'
+2025-02-23 20:25:38.501 +03:00 [INF] ResponseBody: {"userRoles":[]}
+2025-02-23 20:25:38.503 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/users/get-roles-to-user/f7940f6d-95a6-4272-9f78-dbbc5ecc4c05 - - - 200 - application/json;+charset=utf-8 40.2581ms
+2025-02-23 20:25:38.509 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/roles?page=-1&size=-1 - -
+2025-02-23 20:25:38.510 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:38.512 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:38.516 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:25:38.517 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/roles?page=-1&size=-1 - - - 204 - - 8.2053ms
+2025-02-23 20:25:38.519 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7093/api/roles?page=-1&size=-1 - -
+2025-02-23 20:25:38.520 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/roles
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:38.522 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:38.523 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:25:38.524 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Roles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryRequest) on controller ECommerceAPI.API.Controllers.RolesController (ECommerceAPI.API).
+2025-02-23 20:25:38.528 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "AspNetRoles" AS a
+2025-02-23 20:25:38.533 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Role.GetRoles.GetRolesQueryResponse'.
+2025-02-23 20:25:38.536 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."Name"
+FROM "AspNetRoles" AS a
+2025-02-23 20:25:38.539 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2025-02-23 20:25:38.540 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API) in 14.0866ms
+2025-02-23 20:25:38.541 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.RolesController.GetRoles (ECommerceAPI.API)'
+2025-02-23 20:25:38.542 +03:00 [INF] ResponseBody: {"datas":[{"id":"6b753e61-38ba-40c0-9292-429e43f7162d","name":"Admin"},{"id":"6386ea2c-015a-4b6e-b8d7-004c9a90147a","name":"User"},{"id":"8d0cdccd-6a9d-4d8b-8609-86df7774501d","name":"DenemeRol1"}],"totalCount":3}
+2025-02-23 20:25:38.543 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7093/api/roles?page=-1&size=-1 - - - 200 - application/json;+charset=utf-8 24.2948ms
+2025-02-23 20:25:40.122 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7093/api/users/assign-role-to-user - -
+2025-02-23 20:25:40.124 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/users/assign-role-to-user
+Accept: */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:40.129 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:40.130 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2025-02-23 20:25:40.132 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7093/api/users/assign-role-to-user - - - 204 - - 9.3592ms
+2025-02-23 20:25:40.136 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7093/api/users/assign-role-to-user application/json 74
+2025-02-23 20:25:40.138 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/users/assign-role-to-user
+Accept: application/json, text/plain, */*
+Host: localhost:7093
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 74
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: "Opera";v="116", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-02-23 20:25:40.141 +03:00 [INF] CORS policy execution successful.
+2025-02-23 20:25:40.143 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser (ECommerceAPI.API)'
+2025-02-23 20:25:40.150 +03:00 [INF] Route matched with {action = "AssignRoleToUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssignRoleToUser(ECommerceAPI.Application.Features.Commands.AppUser.AssignRoleToUser.AssignRoleToUserCommandRequest) on controller ECommerceAPI.API.Controllers.UsersController (ECommerceAPI.API).
+2025-02-23 20:25:40.153 +03:00 [INF] RequestBody: {"userId":"f7940f6d-95a6-4272-9f78-dbbc5ecc4c05","roles":[" DenemeRol1 "]}
+2025-02-23 20:25:40.158 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-02-23 20:25:40.165 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2025-02-23 20:25:40.170 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-02-23 20:25:40.176 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2025-02-23 20:25:40.185 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2
+2025-02-23 20:25:40.191 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2
+2025-02-23 20:25:40.308 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser (ECommerceAPI.API) in 154.8647ms
+2025-02-23 20:25:40.309 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser (ECommerceAPI.API)'
+2025-02-23 20:25:40.371 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Role  DENEMEROL1  does not exist.
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.AddToRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRolesAsync(TUser user, IEnumerable`1 roles)
+   at ECommerceAPI.Persistence.Services.UserService.AssignRoleToUserAsnyc(String userId, String[] roles) in C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Infrastructure\ECommerceAPI.Persistence\Services\UserService.cs:line 86
+   at ECommerceAPI.Application.Features.Commands.AppUser.AssignRoleToUser.AssignRoleToUserCommandHandler.Handle(AssignRoleToUserCommandRequest request, CancellationToken cancellationToken) in C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Core\ECommerceAPI.Application\Features\Commands\AppUser\AssignRoleToUser\AssignRoleToUserCommandHandler.cs:line 21
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at ECommerceAPI.API.Controllers.UsersController.AssignRoleToUser(AssignRoleToUserCommandRequest assignRoleToUserCommandRequest) in C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\UsersController.cs:line 73
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\erenc\OneDrive\Belgeler\GitHub\ECommerce-w-ASP.NETCoreAPI-Angular\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 132
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2025-02-23 20:25:40.390 +03:00 [ERR] Role  DENEMEROL1  does not exist.
+2025-02-23 20:25:40.394 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7093/api/users/assign-role-to-user application/json 74 - 500 - application/json 258.2968ms
