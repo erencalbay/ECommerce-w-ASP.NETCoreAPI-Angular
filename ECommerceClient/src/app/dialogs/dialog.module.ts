@@ -14,6 +14,8 @@ import { OrderDetailDialogComponent } from './order-detail-dialog/order-detail-d
 import { CompleteOrderDialogComponent } from './complete-order-dialog/complete-order-dialog.component';
 import { AuthorizeMenuDialogComponent } from './authorize-menu-dialog/authorize-menu-dialog.component';
 import { MatBadgeModule } from '@angular/material/badge';
+import { MatListModule } from '@angular/material/list';
+
 
 
 @NgModule({
@@ -34,7 +36,8 @@ import { MatBadgeModule } from '@angular/material/badge';
     MatCardModule,
     MatTableModule,
     MatToolbarModule,
-    MatBadgeModule
+    MatBadgeModule,
+    MatListModule
 ]
 })
 export class DialogModule { }
